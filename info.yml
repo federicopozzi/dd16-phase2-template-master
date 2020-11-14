@@ -1,21 +1,20 @@
 # insert here genreal information about your project website
 
-title: An Exhaustive Title that Encapsulates your Research
-subtitle: A longer subtitle that better explains and contextualises your research project
+title: CHOOSE YOUR NEXT DIGITAL DESTINATION
+subtitle: Exploiting Instagram digital traces to understand how the platform changed the way we choose our next destination.
 
-description: "This text is the introductory text of your interactive research report, the final output of the second phase. In no more than 1400 characters, (please, use only text and do not add images here) you should provide a framing of the chosen topic, and its problematic social implications In addition, in this text, you have to justify the main title, briefly explaining how answering to different research questions by means of data visualisation have led to show one or more aspects of the chosen macro topic. Moreover, explain why is it interesting to study your topic in the way you did. You can include open questions and expected findings."
-
+description: Instagram forever changed the way we approach traveling and tourism. Have you ever been to a place just because of someone else’s digital experience on social media? We have, and it’s called social media-fueled tourism. We decided to better understand why and how this happens. We have been exploiting digital tools to dig up data, analyze it and visualize it. If you want to be more aware of how Instagram influences your travel life, you have come to the right place. Scroll down and choose your next digital destination.
 cover-image: cover.png
 logoPoli: logo_poli.png
 logoDensity: logo_density.png
 
 authors:
+- name: Martina Andreotti
+- name: Elena Buttolo
+- name: Marco Gabriele
+- name: Alessandro Parca
+- name: Federico Pozzi
 - name: Andrea Silvano
-- name: Stefano Mandato
-- name: Donato Ricci
-- name: Marco Fattore
-- name: Azzurra Pini
-- name: Michele Invernizzi
 
 faculty:
 - name: Michele Mauri
