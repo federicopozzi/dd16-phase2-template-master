@@ -1,6 +1,6 @@
 - index: 1
-  title: "TYPES OF TOURISM: How spread is the categorization of tourism on Instagram?"
-  description: Use this text, in no more than 400 characters, to give context to the research question. Sometimes it’s useful to start from a known claim (from news articles) about the topic. What is known about this subject and what do you aim to add with your research protocol?
+  title: "How spread is the categorization of tourism on Instagram?"
+  description: There’s a very long list of tourism categories. People travel for many different reason and sometimes unexpected one. Have you ever wonder what do people travel for? What are the reasons that push us to step out of our door? We investigate Instagram hashtags related to tourism in order to understand which category is represented the most on the platform.
   cover: cover.png
   folder: question-1
   datasets:
@@ -15,8 +15,8 @@
       size: 0.0 KB
       format: .csv
 - index: 2
-  title: "STEREOTYPICAL TOURISM: How do Instagram stereotypes on touristic places influence their digital representation on Tripadvisor?"
-  description: In order to define the type of information that a person can find when he gets in touch with the phenomenon of fake images and wants to go deeper in the knowledge of it, it is necessary to examine the ecosystem in which they spread. The aim of this micro and macro scaled analysis is to understand what issues are actually associated to the query and if the approach in the digital world is critical or purely informative.
+  title: "How do Instagram stereotypes on touristic places influence their digital representation on Tripadvisor?"
+  description: “Wait, I’ve seen that picture before! It’s trending on social media!” Instagram ha s rapidly and steadily changed the way we perceive places and choose our destinations. We identified one of the biggest stereotypical Instagram travel trend and analyze it. Could the beginning of a simple photographic trend boost tourism so much so that people travel to the place just be part of an iconic location?
   cover: cover.png
   folder: question-2
   datasets:
@@ -31,8 +31,8 @@
       size: 0.0 KB
       format: .csv
 - index: 3
-  title: "DARK TOURISM: Which categories are related to the use of the #darktourism hashtag on Instagram?"
-  description: Given the great media resonance and wide audience they reach, relevant events are more likely to generate both positive debate and opportunities for falsification. In this scenario, it is interesting to highlight the possible creation and dissemination of visual misinformation about an event and the response to it, which is translated into the number of sites that declare an image false. At the same time, the aim is to study whether the awareness of the phenomenon has increased over time and whether specific types of events are more subject to debunking.
+  title: "Which categories are related to the use of the #darktourism hashtag on Instagram?"
+  description: "Dark tourism is a movement of people that travel to places historically associated with death and tragedy. Some people travel with lots of historic interest towards these places, some people don’t even know what dark tourism. We examined the #darktourism Instagram hashtag and co-hashtags found in the picture posted on the platform to define which themes are strictly related to this kind of tourism."
   folder: question-3
   cover: cover.png
   datasets:
@@ -47,8 +47,8 @@
       size: 0.0 KB
       format: .csv
 - index: 4
-  title: "MEDICAL TOURISM: What are the most popular medical tourism destinations according to Instagram?"
-  description: Given the great media resonance and wide audience they reach, relevant events are more likely to generate both positive debate and opportunities for falsification. In this scenario, it is interesting to highlight the possible creation and dissemination of visual misinformation about an event and the response to it, which is translated into the number of sites that declare an image false. At the same time, the aim is to study whether the awareness of the phenomenon has increased over time and whether specific types of events are more subject to debunking.
+  title: "What are the most popular medical tourism destinations according to Instagram?"
+  description:  "Medical tourism refers to people traveling abroad to obtain medical treatment. You might know this kind of tourism already, but what if you could know where to go in order to get a specific trend? We analyze a couple hundred posts with the #medicaltourism Instagram hashtag in order to map locations that offer specific treatments around the world. Interested? Try out our map."
   folder: question-4
   cover: cover.png
   datasets:
