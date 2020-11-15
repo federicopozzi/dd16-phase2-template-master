@@ -21,25 +21,25 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
 
   //selectall nodes
   const clusters = d3.selectAll("#nodes > g");
-  clusters.style("opacity","0");
+  clusters.style("opacity", "0");
 
 
   //background
   const background = d3.selectAll("#sfondo");
-  background.on("click", function(){
+  background.on("click", function() {
     skull.style("opacity", "0");
     nuke.style("opacity", "0");
   })
 
 
   //interaction on nodes
-  clusters.on("mouseover", function(){
+  clusters.on("mouseover", function() {
     d3.select(this).style("opacity", "1");
     hash.style("opacity", "0.4");
     posts.style("opacity", "0.4");
   })
 
-  clusters.on("mouseout", function(){
+  clusters.on("mouseout", function() {
     d3.select(this).style("opacity", "0");
     hash.style("opacity", "1");
     posts.style("opacity", "1");
@@ -54,12 +54,12 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   skull.style("opacity", "0");
 
   const areaDeath = d3.selectAll("#area_death");
-  areaDeath.on("click", function(){
+  areaDeath.on("click", function() {
     skull.style("opacity", "1");
   })
 
   const areaNuke = d3.selectAll("#area_nuclear");
-  areaNuke.on("click", function(){
+  areaNuke.on("click", function() {
     nuke.style("opacity", "1");
   })
 

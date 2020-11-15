@@ -1,9 +1,9 @@
 // this is the Javascript file
 console.log("Script is loaded!");
-Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function([html, svgDocument]){
+Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function([html, svgDocument]) {
   const questionContent = d3.select(html).selectAll('body > *');
-  questionContent.each(function(d){
-      d3.select("#question-container").node().appendChild(this);
+  questionContent.each(function(d) {
+    d3.select("#question-container").node().appendChild(this);
   });
   let svgNode = svgDocument.querySelector("svg");
   // console.log(svgNode);
@@ -19,42 +19,42 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function(
   smallPic2018.style("opacity", "1");
 
 
-//interazioni con hover
+  //interazioni con hover
 
-    //not following the trend
-  d3.select("#_2018_1").on("mouseover", function(){
+  //not following the trend
+  d3.select("#_2018_1").on("mouseover", function() {
     d3.select("#_2018_1_zoom").style("opacity", "1");
   })
-  d3.select("#_2018_1").on("mouseout", function(){
+  d3.select("#_2018_1").on("mouseout", function() {
     pic2018.style("opacity", "0");
   })
 
-  d3.select("#_2018_2").on("mouseover", function(){
+  d3.select("#_2018_2").on("mouseover", function() {
     d3.select("#_2018_2_zoom").style("opacity", "1");
   })
-  d3.select("#_2018_2").on("mouseout", function(){
+  d3.select("#_2018_2").on("mouseout", function() {
     pic2018.style("opacity", "0");
   })
 
-  d3.select("#_2018_3").on("mouseover", function(){
+  d3.select("#_2018_3").on("mouseover", function() {
     d3.select("#_2018_3_zoom").style("opacity", "1");
   })
-  d3.select("#_2018_3").on("mouseout", function(){
+  d3.select("#_2018_3").on("mouseout", function() {
     pic2018.style("opacity", "0");
   })
 
-    //following the trend
-  d3.select("#_2018_103").on("mouseover", function(){
+  //following the trend
+  d3.select("#_2018_103").on("mouseover", function() {
     d3.select("#_2018_103_zoom").style("opacity", "1");
   })
-  d3.select("#_2018_103").on("mouseout", function(){
+  d3.select("#_2018_103").on("mouseout", function() {
     pic2018.style("opacity", "0");
   })
 
-  d3.select("#_2018_104").on("mouseover", function(){
+  d3.select("#_2018_104").on("mouseover", function() {
     d3.select("#_2018_104_zoom").style("opacity", "1");
   })
-  d3.select("#_2018_104").on("mouseout", function(){
+  d3.select("#_2018_104").on("mouseout", function() {
     pic2018.style("opacity", "0");
   })
 
