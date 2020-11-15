@@ -16,7 +16,7 @@
       format: .csv
 - index: 2
   title: "How do Instagram stereotypes on touristic places influence their digital representation on Tripadvisor?"
-  description: “Wait, I’ve seen that picture before! It’s trending on social media!” Instagram has rapidly and steadily changed the way we perceive places and choose our destinations. We identified one of the biggest stereotypical Instagram travel trends and analyzed it. Could the beginning of a simple photographic trend boost tourism so much so that people travel to the place just to be part of an iconic location?"
+  description: "“Wait, I’ve seen that picture before! It’s trending on social media!” Instagram has rapidly and steadily changed the way we perceive places and choose our destinations. We identified one of the biggest stereotypical Instagram travel trends and analyzed it. Could the beginning of a simple photographic trend boost tourism so much so that people travel to the place just to be part of an iconic location?"
   cover: cover.png
   folder: question-2
   datasets:
