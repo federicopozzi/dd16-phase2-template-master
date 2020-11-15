@@ -64,15 +64,4 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   })
 
 
-
-
-  //fade on mousehover
-  // skull.on("mouseover", function() {
-  //   console.log("ciao");
-  //   skull.style("opacity","1");
-  // });
-  // skull.on("mouseout", function(){
-  //   skull.style("opacity","0");
-  // })
-
 });
