@@ -19,7 +19,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
     etichette.style("opacity", "1");
     cliniche.style("opacity", "0");
     base.style("opacity", "1");
-    a = 0;
+  
   })
 
   const cliniche = d3.selectAll("#Pallinicolori_EtichetteCitta > g");
