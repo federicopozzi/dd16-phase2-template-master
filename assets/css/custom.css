@@ -7,3 +7,15 @@ html {
   --font-display: 'Commissioner', sans-serif;
   --font-text: 'Commissioner', sans-serif;
 }
+
+
+/* PROTOCOL 3*/
+
+/*cursor pointer protocol_3*/
+#area_death{
+  cursor: pointer;
+}
+
+#area_nuclear{
+  cursor: pointer;
+}
