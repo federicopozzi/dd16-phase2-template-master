@@ -11,6 +11,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
   // console.log(container);
   container.appendChild(svgNode);
 
+  const a = 0;
 
   //background
   const background = d3.selectAll("#Sfondo");
@@ -18,6 +19,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
     etichette.style("opacity", "1");
     cliniche.style("opacity", "0");
     base.style("opacity", "1");
+    a = 0;
   })
 
   const cliniche = d3.selectAll("#Pallinicolori_EtichetteCitta > g");
@@ -32,66 +34,67 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
 
 
 
-  //interazione con hover
-  d3.select("#Mexico").on("mouseover", function(){
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_Mexico").style("opacity", "1");
-  })
-  d3.select("#Mexico").on("mouseout", function(){
-    base.style("opacity", "1");
-    d3.select("#Etichetta_Mexico").style("opacity", "0");
-  })
+    //interazione con hover
+    d3.select("#Mexico").on("mouseover", function(){
+      base.style("opacity", "0.2");
+      d3.select(this).style("opacity", "1");
+      d3.select("#Etichetta_Mexico").style("opacity", "1");
+    })
+    d3.select("#Mexico").on("mouseout", function(){
+      base.style("opacity", "1");
+      d3.select("#Etichetta_Mexico").style("opacity", "0");
+    })
 
-  d3.select("#United_States").on("mouseover", function(){
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_UnitedStates").style("opacity", "1");
-  })
-  d3.select("#United_States").on("mouseout", function(){
-    base.style("opacity", "1");
-    d3.select("#Etichetta_UnitedStates").style("opacity", "0");
-  })
+    d3.select("#United_States").on("mouseover", function(){
+      base.style("opacity", "0.2");
+      d3.select(this).style("opacity", "1");
+      d3.select("#Etichetta_UnitedStates").style("opacity", "1");
+    })
+    d3.select("#United_States").on("mouseout", function(){
+      base.style("opacity", "1");
+      d3.select("#Etichetta_UnitedStates").style("opacity", "0");
+    })
 
-  d3.select("#Dominican_Republic").on("mouseover", function(){
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_DomenicanRepublic").style("opacity", "1");
-  })
-  d3.select("#Dominican_Republic").on("mouseout", function(){
-    base.style("opacity", "1");
-    d3.select("#Etichetta_DomenicanRepublic").style("opacity", "0");
-  })
+    d3.select("#Dominican_Republic").on("mouseover", function(){
+      base.style("opacity", "0.2");
+      d3.select(this).style("opacity", "1");
+      d3.select("#Etichetta_DomenicanRepublic").style("opacity", "1");
+    })
+    d3.select("#Dominican_Republic").on("mouseout", function(){
+      base.style("opacity", "1");
+      d3.select("#Etichetta_DomenicanRepublic").style("opacity", "0");
+    })
 
-  d3.select("#South_Korea-4").on("mouseover", function(){
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_SouthKorea").style("opacity", "1");
-  })
-  d3.select("#South_Korea-4").on("mouseout", function(){
-    base.style("opacity", "1");
-    d3.select("#Etichetta_SouthKorea").style("opacity", "0");
-  })
+    d3.select("#South_Korea-4").on("mouseover", function(){
+      base.style("opacity", "0.2");
+      d3.select(this).style("opacity", "1");
+      d3.select("#Etichetta_SouthKorea").style("opacity", "1");
+    })
+    d3.select("#South_Korea-4").on("mouseout", function(){
+      base.style("opacity", "1");
+      d3.select("#Etichetta_SouthKorea").style("opacity", "0");
+    })
 
-  d3.select("#Iran").on("mouseover", function(){
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_Iran").style("opacity", "1");
-  })
-  d3.select("#Iran").on("mouseout", function(){
-    base.style("opacity", "1");
-    d3.select("#Etichetta_Iran").style("opacity", "0");
-  })
+    d3.select("#Iran").on("mouseover", function(){
+      base.style("opacity", "0.2");
+      d3.select(this).style("opacity", "1");
+      d3.select("#Etichetta_Iran").style("opacity", "1");
+    })
+    d3.select("#Iran").on("mouseout", function(){
+      base.style("opacity", "1");
+      d3.select("#Etichetta_Iran").style("opacity", "0");
+    })
 
-  d3.select("#United_Kingdom").on("mouseover", function(){
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_United_Kingdom").style("opacity", "1");
-  })
-  d3.select("#United_Kingdom").on("mouseout", function(){
-    base.style("opacity", "1");
-    d3.select("#Etichetta_United_Kingdom").style("opacity", "0");
-  })
+    d3.select("#United_Kingdom").on("mouseover", function(){
+      base.style("opacity", "0.2");
+      d3.select(this).style("opacity", "1");
+      d3.select("#Etichetta_United_Kingdom").style("opacity", "1");
+    })
+    d3.select("#United_Kingdom").on("mouseout", function(){
+      base.style("opacity", "1");
+      d3.select("#Etichetta_United_Kingdom").style("opacity", "0");
+    })
+
 
 
 
@@ -104,7 +107,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
       etichette.style("opacity", "0");
       d3.select(this).style("opacity", "1");
       d3.select("#Skin_Etichette").style("opacity", "1");
-      a = 1;
+
     })
 
     d3.select("#Legs_Body").on("click", function(){
@@ -176,13 +179,6 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
       d3.select(this).style("opacity", "1");
       d3.select("#Hair_Etichette").style("opacity", "1");
     })
-
-
-
-
-
-
-
 
 
 });
