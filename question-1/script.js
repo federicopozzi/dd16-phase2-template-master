@@ -7,24 +7,28 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   });
   let svgNode = svgDocument.querySelector("svg");
   // console.log(svgNode);
-  let container = document.querySelector("#visualization");
+  let container = document.querySelector("#visualisation");
   // console.log(container);
   container.appendChild(svgNode);
 
-  const immagine = d3.selectAll("#ECOTOURISM > g");
+  const immagine = d3.selectAll("image");
   immagine.style("opacity", "1");
 
+
+
   immagine.on("mouseover", function() {
-    immagine.style("opacity", "0.5");
-    d3.select(this).style("opacity", "1");
+    console.log(d3.select(this));
     d3.select(this).raise();
     // d3.select(this).style("transform-origin", "center");
-    d3.select(this).style("transform", "scale(2)");
+    d3.select(this).attr("width", "150");
+    d3.select(this).attr("height", "150");
   })
 
   immagine.on("mouseout", function() {
 
-    d3.select(this).style("transform", "scale(1)");
+
+    d3.select(this).attr("width", "30");
+    d3.select(this).attr("height", "30");
   })
 
 

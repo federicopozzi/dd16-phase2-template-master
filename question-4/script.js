@@ -7,7 +7,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
   });
   let svgNode = svgDocument.querySelector("svg");
   // console.log(svgNode);
-  let container = document.querySelector("#visualization");
+  let container = document.querySelector("#visualisation");
   // console.log(container);
   container.appendChild(svgNode);
 
@@ -112,7 +112,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
 
   //function click per le cliniche
   d3.select("#Skin_Body").on("click", function() {
-    base.style("opacity", "0");
+    base.style("visibility", "hidden");
     etichette.style("opacity", "0");
     d3.select(this).style("opacity", "1");
     d3.select("#Skin_Etichette").style("opacity", "1");

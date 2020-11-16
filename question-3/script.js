@@ -7,7 +7,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   });
   let svgNode = svgDocument.querySelector("svg");
   // console.log(svgNode);
-  let container = document.querySelector("#visualization");
+  let container = document.querySelector("#visualisation");
   // console.log(container);
   container.appendChild(svgNode);
 
