@@ -1,64 +1,44 @@
 - index: 1
   title: "Which are the most digitally relevant tourism categories based on Instagram hashtags?"
-  description: There’s a very long list of tourism categories. People travel for many different reasons and sometimes unexpected one. Have you ever wondered what people travel for? What are the reasons that push us to step out of our door? We investigate Instagram hashtags related to tourism in order to understand which category is represented the most on the platform.
+  description: There’s a very long list of tourism categories. People travel for many different reasons and sometimes unexpected ones. Have you ever wondered what people travel for? What are the reasons that push us to step out of our door? We investigated Instagram hashtags related to tourism in order to understand which category is represented the most on the platform.
   cover: cover.png
   folder: question-1
   datasets:
-    - name: Wikipedia
+    - name: Wikipedia & Instagram
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       src: magic-data.csv
       size: 0.0 KB
-      format: .csv
-    - name: Google News
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      src: ugly-data.csv
-      size: 0.0 KB
-      format: .csv
+      format: .xls
 - index: 2
   title: "How do Instagram stereotypes on touristic places influence their digital representation on Tripadvisor?"
   description: "“Wait, I’ve seen that picture before! It’s trending on social media!” Instagram has rapidly and steadily changed the way we perceive places and choose our destinations. We identified one of the biggest stereotypical Instagram travel trends and analyzed it. Could the beginning of a simple photographic trend boost tourism so much so that people travel to the place just to be part of an iconic location?"
   cover: cover.png
   folder: question-2
   datasets:
-    - name: Wikipedia
+    - name: Instagram & Tripadvisor
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       src: magic-data.csv
       size: 0.0 KB
-      format: .csv
-    - name: Google News
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      src: ugly-data.csv
-      size: 0.0 KB
-      format: .csv
+      format: .xls
 - index: 3
   title: "Which are the semantic categories defined by co-hashtags related to #darktourism based on the first 250 Instagram posts?"
   description: "Dark tourism is a movement of people that travel to places historically associated with death and tragedy. Some people travel with a lot of historic interest towards these places, some people don’t even know about dark tourism. We examined the #darktourism Instagram hashtag and co-hashtags found in the picture posted on the platform to define which themes are related to this kind of tourism."
   folder: question-3
   cover: cover.png
   datasets:
-    - name: Wikipedia
+    - name: Instagram
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
       src: magic-data.csv
       size: 0.0 KB
-      format: .csv
-    - name: Google News
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
-      src: ugly-data.csv
-      size: 0.0 KB
-      format: .csv
+      format: .xls
 - index: 4
   title: "What are the most popular medical tourism destinations according to the first 300 Instagram posts on #medicaltourism hashtag?"
   description: "Medical tourism refers to people traveling abroad to obtain medical treatment. You might know this kind of tourism already, but what if you could know where to go in order to get a specific trend? We analyze a couple hundred posts with the #medicaltourism Instagram hashtag in order to map locations that offer specific treatments around the world. Medical tourism helps people getting surgical intervention at a lower price compared to their country of origin."
   folder: question-4
   cover: cover.png
   datasets:
-    - name: Wikipedia
+    - name: Instagram
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
       src: magic-data.csv
       size: 0.0 KB
-      format: .csv
-    - name: Google News
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
-      src: ugly-data.csv
-      size: 0.0 KB
-      format: .csv
+      format: .xls
