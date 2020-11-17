@@ -22,8 +22,10 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.select(this).raise();
     immagine.style("opacity", "1");
     d3.select(this).style("opacity", "1");
+    // d3.select(this).style("transform", "scale(2)");
     d3.select(this).attr("width", "150");
     d3.select(this).attr("height", "150");
+    // d3.select(this).style("transform", "translate(10px, 10px)");
   })
 
   immagine.on("mouseout", function() {
@@ -33,6 +35,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   })
 
 
+
   //hover categorie
 
 
@@ -40,8 +43,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   const sezioni = d3.selectAll("#SEZIONI > g");
   const imgTutte = d3.selectAll("#Images > g");
 
+  d3.selectAll("#BACKGROUND").on("click", function(){
+    imgTutte.style("opacity", "1");
+    etichette.style("opacity", "1");
+    sezioni.style("opacity", "1");
+  })
 
-  d3.select("#SEZ-NATURE").on("mouseover", function(){
+  d3.select("#SEZ-NATURE").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -49,13 +57,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-nature").style("opacity", "1");
   })
-  d3.select("#SEZ-NATURE").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-NATURE").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-ACTIVITIES").on("mouseover", function(){
+  d3.select("#SEZ-ACTIVITIES").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -63,13 +71,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-sport").style("opacity", "1");
   })
-  d3.select("#SEZ-ACTIVITIES").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-ACTIVITIES").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-ADVENTURE").on("mouseover", function(){
+  d3.select("#SEZ-ADVENTURE").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -77,13 +85,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-adventure").style("opacity", "1");
   })
-  d3.select("#SEZ-ADVENTURE").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-ADVENTURE").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-AID").on("mouseover", function(){
+  d3.select("#SEZ-AID").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -91,13 +99,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-aid").style("opacity", "1");
   })
-  d3.select("#SEZ-AID").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-AID").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-CULTURE").on("mouseover", function(){
+  d3.select("#SEZ-CULTURE").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -105,13 +113,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-cultural").style("opacity", "1");
   })
-  d3.select("#SEZ-CULTURE").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-CULTURE").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-DOMESTIC").on("mouseover", function(){
+  d3.select("#SEZ-DOMESTIC").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -119,13 +127,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-DOMESTIC").style("opacity", "1");
   })
-  d3.select("#SEZ-DOMESTIC").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-DOMESTIC").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-HERITAGE").on("mouseover", function(){
+  d3.select("#SEZ-HERITAGE").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -133,13 +141,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-HERITAGE").style("opacity", "1");
   })
-  d3.select("#SEZ-HERITAGE").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-HERITAGE").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-LGBT").on("mouseover", function(){
+  d3.select("#SEZ-LGBT").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -147,13 +155,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-LGBT").style("opacity", "1");
   })
-  d3.select("#SEZ-LGBT").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-LGBT").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-BUSINESS").on("mouseover", function(){
+  d3.select("#SEZ-BUSINESS").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -161,13 +169,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-BUSINESS").style("opacity", "1");
   })
-  d3.select("#SEZ-BUSINESS").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-BUSINESS").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-ACCESSIBLE").on("mouseover", function(){
+  d3.select("#SEZ-ACCESSIBLE").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -175,13 +183,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-ACCESSIBLE").style("opacity", "1");
   })
-  d3.select("#SEZ-ACCESSIBLE").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-ACCESSIBLE").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-RELIGION").on("mouseover", function(){
+  d3.select("#SEZ-RELIGION").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -189,13 +197,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-religious").style("opacity", "1");
   })
-  d3.select("#SEZ-RELIGION").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-RELIGION").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-SEX").on("mouseover", function(){
+  d3.select("#SEZ-SEX").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -203,13 +211,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-SEX").style("opacity", "1");
   })
-  d3.select("#SEZ-SEX").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-SEX").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-SPACE").on("mouseover", function(){
+  d3.select("#SEZ-SPACE").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -217,13 +225,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-SPACE").style("opacity", "1");
   })
-  d3.select("#SEZ-SPACE").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-SPACE").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-MEDIC").on("mouseover", function(){
+  d3.select("#SEZ-MEDIC").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -231,13 +239,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-medical").style("opacity", "1");
   })
-  d3.select("#SEZ-MEDIC").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-MEDIC").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-FOOD").on("mouseover", function(){
+  d3.select("#SEZ-FOOD").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -245,13 +253,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-food").style("opacity", "1");
   })
-  d3.select("#SEZ-FOOD").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-FOOD").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
-  d3.select("#SEZ-DARK").on("mouseover", function(){
+  d3.select("#SEZ-DARK").on("click", function(){
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -259,11 +267,11 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     etichette.style("opacity", "0.3");
     d3.select("#Box-dark").style("opacity", "1");
   })
-  d3.select("#SEZ-DARK").on("mouseout", function(){
-    imgTutte.style("opacity", "1");
-    etichette.style("opacity", "1");
-    sezioni.style("opacity", "1");
-  })
+  // d3.select("#SEZ-DARK").on("click", function(){
+  //   imgTutte.style("opacity", "1");
+  //   etichette.style("opacity", "1");
+  //   sezioni.style("opacity", "1");
+  // })
 
 
 
