@@ -11,182 +11,106 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
   // console.log(container);
   container.appendChild(svgNode);
 
+  const labelCity = d3.selectAll("#Labels-Cities > g");
+  labelCity.style("opacity", "0");
 
+  const countries = d3.selectAll("#Countries > g");
 
-  //background
-  const background = d3.selectAll("#Sfondo");
-  background.on("click", function() {
-    etichette.style("opacity", "1");
-    cliniche.style("opacity", "0");
-    base.style("opacity", "1");
-
-  })
-
-  const cliniche = d3.selectAll("#Pallinicolori_EtichetteCitta > g");
-  cliniche.style("opacity", "0");
-
-  const etichette = d3.selectAll("#EtichetteCorpo > g");
-
-  const nazioni = d3.selectAll("#EtichetteNazioni > g");
-  nazioni.style("opacity", "0");
-
-  const base = d3.selectAll("#PallineBase > g");
-
-
-
-  //interazione con hover
-  d3.select("#Mexico").on("mouseover", function() {
-    base.style("opacity", "0.2");
+  countries.on("mouseover", function(){
+    countries.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_Mexico").style("opacity", "1");
   })
-  d3.select("#Mexico").on("mouseout", function() {
-    base.style("opacity", "1");
-    d3.select("#Etichetta_Mexico").style("opacity", "0");
+  countries.on("mouseout", function(){
+    countries.style("opacity", "1");
+
   })
 
-  d3.select("#United_States").on("mouseover", function() {
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_UnitedStates").style("opacity", "1");
-  })
-  d3.select("#United_States").on("mouseout", function() {
-    base.style("opacity", "1");
-    d3.select("#Etichetta_UnitedStates").style("opacity", "0");
-  })
+  const labelBody = d3.selectAll("#Body");
 
-  d3.select("#Dominican_Republic").on("mouseover", function() {
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_DomenicanRepublic").style("opacity", "1");
+  const sfondo = d3.select("#Background");
+  sfondo.on("click", function(){
+    countries.style("visibility", "visible");
+    labelBody.style("opacity", "1");
+    labelCity.style("opacity", "0");
   })
-  d3.select("#Dominican_Republic").on("mouseout", function() {
-    base.style("opacity", "1");
-    d3.select("#Etichetta_DomenicanRepublic").style("opacity", "0");
-  })
-
-  d3.select("#South_Korea-4").on("mouseover", function() {
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_SouthKorea").style("opacity", "1");
-  })
-  d3.select("#South_Korea-4").on("mouseout", function() {
-    base.style("opacity", "1");
-    d3.select("#Etichetta_SouthKorea").style("opacity", "0");
-  })
-
-  d3.select("#Iran").on("mouseover", function() {
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_Iran").style("opacity", "1");
-  })
-  d3.select("#Iran").on("mouseout", function() {
-    base.style("opacity", "1");
-    d3.select("#Etichetta_Iran").style("opacity", "0");
-  })
-
-  d3.select("#United_Kingdom").on("mouseover", function() {
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_United_Kingdom").style("opacity", "1");
-  })
-  d3.select("#United_Kingdom").on("mouseout", function() {
-    base.style("opacity", "1");
-    d3.select("#Etichetta_United_Kingdom").style("opacity", "0");
-  })
-
-  d3.select("#Turkey").on("mouseover", function() {
-    base.style("opacity", "0.2");
-    d3.select(this).style("opacity", "1");
-    d3.select("#Etichetta_Turkey").style("opacity", "1");
-  })
-  d3.select("#Turkey").on("mouseout", function() {
-    base.style("opacity", "1");
-    d3.select("#Etichetta_Turkey").style("opacity", "0");
-  })
-
-
-
-
 
 
   //function click per le cliniche
-  d3.select("#Skin_Body").on("click", function() {
-    base.style("visibility", "hidden");
-    etichette.style("opacity", "0");
+  d3.select("#Skin-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Skin_Etichette").style("opacity", "1");
-
+    labelBody.style("opacity", "0.4");
+    d3.select("#Skin-Labels").style("opacity", "1");
   })
 
-  d3.select("#Legs_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Legs-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Legs_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Legs-Labels").style("opacity", "1");
   })
 
-  d3.select("#Fertility_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Fertility-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Fertility_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Fertility-Labels").style("opacity", "1");
   })
 
-  d3.select("#Butt_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Butt-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Butt_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Butt-Labels").style("opacity", "1");
   })
 
-  d3.select("#WeightLoss_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Weight-Loss-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Weigh_Loss_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Weight-Loss-Labels").style("opacity", "1");
   })
 
-  d3.select("#GeneralSurgery_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#General-Surgery-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#General_Surgery_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#General-Surgery-Labels").style("opacity", "1");
   })
 
-  d3.select("#Breast_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Breast-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Breast_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Breast-Labels").style("opacity", "1");
   })
 
-  d3.select("#Teeth_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Teeth-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Teeth_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Teeth-Labels").style("opacity", "1");
   })
 
-  d3.select("#Face_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Face-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Face_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Face-Labels").style("opacity", "1");
   })
 
-  d3.select("#Nose_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Nose-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Nose_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Nose-Labels").style("opacity", "1");
   })
 
-  d3.select("#Hairs_Body").on("click", function() {
-    base.style("opacity", "0");
-    etichette.style("opacity", "0");
+  d3.select("#Hair-Body").on("click", function() {
+    countries.style("visibility", "hidden");
     d3.select(this).style("opacity", "1");
-    d3.select("#Hair_Etichette").style("opacity", "1");
+    labelBody.style("opacity", "0.4");
+    d3.select("#Hair-Labels").style("opacity", "1");
   })
 
 
