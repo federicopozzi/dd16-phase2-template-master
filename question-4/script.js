@@ -27,6 +27,8 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
 
   const labelBody = d3.selectAll("#Body");
 
+
+  //reset sullo sfondo
   const sfondo = d3.select("#Background");
   sfondo.on("click", function(){
     countries.style("visibility", "visible");
