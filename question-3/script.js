@@ -11,8 +11,9 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   // console.log(container);
   container.appendChild(svgNode);
 
-  //script gephi prova
-  //background
+
+  // script gephi prova
+  // background
   const hash = d3.selectAll("#hashtag");
   hash.style("opacity", "1");
 
