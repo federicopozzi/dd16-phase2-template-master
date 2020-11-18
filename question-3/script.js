@@ -32,18 +32,33 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   })
 
 
-  //interaction on nodes
-  clusters.on("mouseover", function() {
-    d3.select(this).style("opacity", "1");
-    hash.style("opacity", "0.4");
-    posts.style("opacity", "0.4");
-  })
+  d3.select("#g_skull").on("mouseover", function() {
+    d3.select("#skull").style("opacity", "1")
+  });
+  d3.select("#g_skull").on("mouseout", function() {
+    d3.select("#skull").style("opacity", "0")
+  });
 
-  clusters.on("mouseout", function() {
-    d3.select(this).style("opacity", "0");
-    hash.style("opacity", "1");
-    posts.style("opacity", "1");
-  })
+  d3.select("#g_history").on("mouseover", function() {
+    d3.select("#history").style("opacity", "1")
+  });
+  d3.select("#g_history").on("mouseout", function() {
+    d3.select("#history").style("opacity", "0")
+  });
+
+  //
+  // //interaction on nodes
+  // clusters.on("mouseover", function() {
+  //   d3.select(this).style("opacity", "1");
+  //   hash.style("opacity", "0.4");
+  //   posts.style("opacity", "0.4");
+  // })
+  //
+  // clusters.on("mouseout", function() {
+  //   d3.select(this).style("opacity", "0");
+  //   hash.style("opacity", "1");
+  //   posts.style("opacity", "1");
+  // })
 
 
   //interaction on click sulle aree
