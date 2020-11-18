@@ -35,7 +35,7 @@
   title: "What are the most popular medical tourism destinations according to the first 300 Instagram posts on #medicaltourism hashtag?"
   description: "Medical tourism refers to people traveling abroad to obtain medical treatment. You might know this kind of tourism already, but what if you could know where to go in order to get a specific trend? We analyze a couple hundred posts with the #medicaltourism Instagram hashtag in order to map locations that offer specific treatments around the world. Medical tourism helps people getting surgical intervention at a lower price compared to their country of origin."
   folder: question-4
-  cover: cover.png
+  cover: cover4.gif
   datasets:
     - name: Instagram
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
