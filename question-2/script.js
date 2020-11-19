@@ -11,54 +11,48 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function(
   // console.log(container);
   container.appendChild(svgNode);
 
+ const arbol = d3.selectAll("#Arbol");
+ arbol.style("visibility", "visible");
 
-  const pic2018 = d3.selectAll("#_2018_zoom > g");
-  pic2018.style("opacity", "0");
+ const lempuyang = d3.selectAll("#Lempuyang");
+ lempuyang.style("visibility", "hidden");
 
-  const smallPic2018 = d3.selectAll("#_2018");
-  smallPic2018.style("opacity", "1");
+ const pig = d3.selectAll("#Pig");
+ pig.style("visibility", "hidden");
 
+ const buttonLemp = d3.select("#Lampuyang-on");
+ buttonLemp.style("opacity", "0");
+ buttonLemp.on("click", function(){
+   buttonLemp.style("opacity", "1");
+   buttonArbol.style("opacity", "0");
+   buttonPig.style("opacity", "0");
+   lempuyang.style("visibility", "visible");
+   pig.style("visibility", "hidden");
+   arbol.style("visibility", "hidden");
 
-  //interazioni con hover
+ })
 
-  //not following the trend
-  d3.select("#_2018_1").on("mouseover", function() {
-    d3.select("#_2018_1_zoom").style("opacity", "1");
-  })
-  d3.select("#_2018_1").on("mouseout", function() {
-    pic2018.style("opacity", "0");
-  })
+ const buttonArbol = d3.select("#Arbol-on");
+ buttonArbol.style("opacity", "1");
+ buttonArbol.on("click", function(){
+   buttonLemp.style("opacity", "0");
+   buttonArbol.style("opacity", "1");
+   buttonPig.style("opacity", "0");
+   lempuyang.style("visibility", "hidden");
+   pig.style("visibility", "hidden");
+   arbol.style("visibility", "visible");
+ })
 
-  d3.select("#_2018_2").on("mouseover", function() {
-    d3.select("#_2018_2_zoom").style("opacity", "1");
-  })
-  d3.select("#_2018_2").on("mouseout", function() {
-    pic2018.style("opacity", "0");
-  })
-
-  d3.select("#_2018_3").on("mouseover", function() {
-    d3.select("#_2018_3_zoom").style("opacity", "1");
-  })
-  d3.select("#_2018_3").on("mouseout", function() {
-    pic2018.style("opacity", "0");
-  })
-
-  //following the trend
-  d3.select("#_2018_103").on("mouseover", function() {
-    d3.select("#_2018_103_zoom").style("opacity", "1");
-  })
-  d3.select("#_2018_103").on("mouseout", function() {
-    pic2018.style("opacity", "0");
-  })
-
-  d3.select("#_2018_104").on("mouseover", function() {
-    d3.select("#_2018_104_zoom").style("opacity", "1");
-  })
-  d3.select("#_2018_104").on("mouseout", function() {
-    pic2018.style("opacity", "0");
-  })
-
-
+ const buttonPig = d3.select("#Pig-on");
+ buttonPig.style("opacity", "0");
+ buttonPig.on("click", function(){
+   buttonLemp.style("opacity", "0");
+   buttonArbol.style("opacity", "0");
+   buttonPig.style("opacity", "1");
+   lempuyang.style("visibility", "hidden");
+   pig.style("visibility", "visible");
+   arbol.style("visibility", "hidden");
+ })
 
 
 
