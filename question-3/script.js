@@ -15,18 +15,19 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   // script gephi prova
   // background
 
-  // const etichette = d3.selectAll("#Layer_57 > g > #nome");
-  //
-  // etichette.style("visibility", "hidden");
-  //
-  // const pulsante = d3.selectAll("#Layer_57 > g > ellipse");
-  //  d3.selectAll("#Layer_57 > g").on("mouseover", function(){
-  //    d3.select(this).select("#nome").style("visibility", "visible");
-  //  })
-  //
-  //  d3.selectAll("#Layer_57 > g").on("mouseout", function(){
-  //    d3.select(this).select("#nome").style("visibility", "hidden");
-  //  })
+  const etichette = d3.selectAll("#interazione_etichette > g > g");
+  const hashScomparire = d3.selectAll("#interazione_etichette");
+
+  etichette.style("visibility", "hidden");
+
+  const pulsante = d3.selectAll("#Layer_57 > g > ellipse");
+   d3.selectAll("#interazione_etichette > g").on("mouseover", function(){
+     d3.select(this).select("g").style("visibility", "visible");
+   })
+
+   d3.selectAll("#interazione_etichette > g").on("mouseout", function(){
+     d3.select(this).select("g").style("visibility", "hidden");
+   })
 
   const hash = d3.selectAll("#hashtag");
   hash.style("opacity", "1");
@@ -36,17 +37,22 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
 
   const hashT = d3.selectAll("#hasthag_text");
 
+
   //selectall nodes
   const clusters = d3.selectAll("#nodes > g");
   clusters.style("opacity", "0");
+  clusters.on("mouseover", function(){
+      hashScomparire.style("opacity", "0");
+  })
+  clusters.on("mouseout", function(){
+      hashScomparire.style("opacity", "1");
+  })
 
 
 
-
-  d3.select("#targhette_nuove").style("opacity", "0");
 
 //hover sui nodes
-  d3.select("#g_skull").on("mouseover", function() {
+d3.select("#g_skull").on("mouseover", function() {
     d3.select("#skull").style("opacity", "1");
     hash.style("opacity", "0.2");
     posts.style("opacity", "0.2");
@@ -60,7 +66,23 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     posts.style("opacity", "1");
     hashT.style("opacity", "1");
     d3.select("#targhette_grandi").style("opacity", "1");
+
   });
+
+d3.select("#g_death").on("mouseover", function() {
+  d3.select("#death-2").style("opacity", "1");
+  hash.style("opacity", "0.2");
+  posts.style("opacity", "0.2");
+  hashT.style("opacity", "0.2");
+  d3.select("#targhette_grandi").style("opacity", "0");
+});
+d3.select("#g_death").on("mouseout", function() {
+  d3.select("#death-2").style("opacity", "0");
+  hash.style("opacity", "1");
+  posts.style("opacity", "1");
+  hashT.style("opacity", "1");
+  d3.select("#targhette_grandi").style("opacity", "1");
+});
 
   d3.select("#g_history").on("mouseover", function() {
     d3.select("#history").style("opacity", "1");
@@ -76,6 +98,202 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     hashT.style("opacity", "1");
     d3.select("#targhette_grandi").style("opacity", "1");
   });
+
+  d3.select("#g_mementomori").on("mouseover", function() {
+    d3.select("#mementomori").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_mementomori").on("mouseout", function() {
+    d3.select("#mementomori").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_halloween").on("mouseover", function() {
+    d3.select("#halloween-2").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_halloween").on("mouseout", function() {
+    d3.select("#halloween-2").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_cemetery").on("mouseover", function() {
+    d3.select("#cemetery").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_cemetery").on("mouseout", function() {
+    d3.select("#cemetery").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_paranormal").on("mouseover", function() {
+    d3.select("#paranormal").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_paranormal").on("mouseout", function() {
+    d3.select("#paranormal").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_haunted").on("mouseover", function() {
+    d3.select("#haunted").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_haunted").on("mouseout", function() {
+    d3.select("#haunted").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_travel").on("mouseover", function() {
+    d3.select("#travel-2").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_travel").on("mouseout", function() {
+    d3.select("#travel-2").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_spooky").on("mouseover", function() {
+    d3.select("#spooky").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_spooky").on("mouseout", function() {
+    d3.select("#spooky").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_abandonedplaces").on("mouseover", function() {
+    d3.select("#abandonedplaces").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_abandonedplaces").on("mouseout", function() {
+    d3.select("#abandonedplaces").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_urbex").on("mouseover", function() {
+    d3.select("#urbex").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_urbex").on("mouseout", function() {
+    d3.select("#urbex").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_abandoned").on("mouseover", function() {
+    d3.select("#abandoned").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_abandoned").on("mouseout", function() {
+    d3.select("#abandoned").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_pripyat").on("mouseover", function() {
+    d3.select("#pripyat").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_pripyat").on("mouseout", function() {
+    d3.select("#pripyat").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_chernobyl").on("mouseover", function() {
+    d3.select("#chernobyl").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_chernobyl").on("mouseout", function() {
+    d3.select("#chernobyl").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
+  d3.select("#g_radioactive").on("mouseover", function() {
+    d3.select("#radioactive").style("opacity", "1");
+    hash.style("opacity", "0.2");
+    posts.style("opacity", "0.2");
+    hashT.style("opacity", "0.2");
+    d3.select("#targhette_grandi").style("opacity", "0");
+  });
+  d3.select("#g_radioactive").on("mouseout", function() {
+    d3.select("#radioactive").style("opacity", "0");
+    hash.style("opacity", "1");
+    posts.style("opacity", "1");
+    hashT.style("opacity", "1");
+    d3.select("#targhette_grandi").style("opacity", "1");
+  });
+
 
 
 
