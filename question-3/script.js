@@ -58,7 +58,6 @@ d3.select("#g_skull").on("mouseover", function() {
     posts.style("opacity", "0.2");
     hashT.style("opacity", "0.2");
     d3.select("#targhette_grandi").style("opacity", "0");
-
   });
   d3.select("#g_skull").on("mouseout", function() {
     d3.select("#skull").style("opacity", "0")
@@ -66,7 +65,6 @@ d3.select("#g_skull").on("mouseover", function() {
     posts.style("opacity", "1");
     hashT.style("opacity", "1");
     d3.select("#targhette_grandi").style("opacity", "1");
-
   });
 
 d3.select("#g_death").on("mouseover", function() {
@@ -295,55 +293,82 @@ d3.select("#g_death").on("mouseout", function() {
   });
 
 
-
+  //interaction on click sulle aree
 
   //background
   const background = d3.selectAll("#sfondo");
   background.on("click", function() {
-  d3.select("#nuclear").style("opacity", "0");
-  d3.select("#death").style("opacity", "0");
-  nuke.style("opacity", "0");
-  death.style("opacity", "0");
+    d3.select("#area_death_on").style("opacity", "0");
+    d3.select("#area_spanish_on").style("opacity", "0");
+    d3.select("#area_horror_on").style("opacity", "0");
+    d3.select("#area_halloween_on").style("opacity", "0");
+    d3.select("#area_travel_on").style("opacity", "0");
+    d3.select("#area_nuclear_on").style("opacity", "0");
+    d3.select("#area_korean_on").style("opacity", "0");
+    d3.select("#area_cambodian_on").style("opacity", "0");
+    foto.style("opacity", "0");
   })
 
+  const onHover = d3.selectAll("#on-hover > g");
+  onHover.style("opacity", "0");
 
-  //interaction on click sulle aree
+  const on = d3.selectAll("#on > g");
+  on.style("opacity", "0");
 
-  const tutteFoto = d3.selectAll("#foto_feed > g");
-  tutteFoto.style("opacity", "0");
-  d3.select("#grid").style("opacity", "1");
 
-  const nuke = d3.selectAll("#area_nuclear_on");
-  nuke.style("opacity", "0");
-
-  nuke.on("click", function() {
-    nuke.style("opacity", "1");
-    d3.select("#nuclear").style("opacity", "1");
+  onHover.on("mouseover", function(){
+    d3.select(this).style("opacity", "1");
+  })
+  onHover.on("mouseout", function(){
+    d3.select(this).style("opacity", "0");
   })
 
-  const death = d3.selectAll("#area_death_on");
-  death.style("opacity", "0");
+  const foto = d3.selectAll("#death, #nuclear, #horror, #halloween, #cambodia, #travel, #turismonegro, #korean");
+  foto.style("opacity", "0");
 
-  death.on("click", function(){
-    death.style("opacity", "1");
+  d3.select("#area_death_on-hover").on("click", function(){
+    d3.select("#area_death_on").style("opacity", "1");
     d3.select("#death").style("opacity", "1");
   })
 
-  const spanish = d3.selectAll("#area_spanish_on");
-  spanish.style("opacity", "0");
+  d3.select("#area_spanish_on-hover").on("click", function(){
+    d3.select("#area_spanish_on").style("opacity", "1");
+    d3.select("#turismonegro").style("opacity", "1");
+  })
 
-  const horror = d3.selectAll("#area_horror_on");
-  horror.style("opacity", "0");
+  d3.select("#area_horror_on-hover").on("click", function(){
+    d3.select("#area_horror_on").style("opacity", "1");
+    d3.select("#horror").style("opacity", "1");
+  })
 
-  const halloween = d3.selectAll("#area_halloween_on");
-  halloween.style("opacity", "0");
+  d3.select("#area_halloween_on-hover").on("click", function(){
+    d3.select("#area_halloween_on").style("opacity", "1");
+    d3.select("#halloween").style("opacity", "1");
+  })
 
-  const travel = d3.selectAll("#area_travel_on");
-  travel.style("opacity", "0");
+  d3.select("#area_travel_on-hover").on("click", function(){
+    d3.select("#area_travel_on").style("opacity", "1");
+    d3.select("#travel").style("opacity", "1");
+  })
 
-  const korea = d3.selectAll("#area_korean_on");
-  korea.style("opacity", "0");
+  d3.select("#area_nuclear_on-hover").on("click", function(){
+    d3.select("#area_nuclear_on").style("opacity", "1");
+    d3.select("#nuclear").style("opacity", "1");
+  })
 
-  const cambodian = d3.selectAll("#area_cambodian_on");
-  cambodian.style("opacity", "0");
+  d3.select("#area_korean_on-hover").on("click", function(){
+    d3.select("#area_korean_on").style("opacity", "1");
+    d3.select("#korean").style("opacity", "1");
+  })
+
+  d3.select("#area_cambodian_on-hover").on("click", function(){
+    d3.select("#area_cambodian_on").style("opacity", "1");
+    d3.select("#cambodia").style("opacity", "1");
+  })
+
+
+
+
+
+
 });

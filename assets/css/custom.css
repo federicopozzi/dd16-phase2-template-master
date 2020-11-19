@@ -12,11 +12,7 @@ html {
 /* PROTOCOL 3*/
 
 /*cursor pointer protocol_3*/
-#area_death{
-  cursor: pointer;
-}
-
-#area_nuclear{
+#on-hover > g {
   cursor: pointer;
 }
 
