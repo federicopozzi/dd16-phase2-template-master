@@ -70,7 +70,9 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   const background = d3.selectAll("#sfondo");
   background.on("click", function() {
   d3.select("#nuclear").style("opacity", "0");
+  d3.select("#death").style("opacity", "1");
   nuke.style("opacity", "0");
+  death.style("opacity", "0");
   })
 
 
@@ -90,6 +92,11 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
 
   const death = d3.selectAll("#area_death_on");
   death.style("opacity", "0");
+
+  death.on("click", function(){
+    death.style("opacity", "1");
+    d3.select("#death").style("opacity", "1");
+  })
 
   const spanish = d3.selectAll("#area_spanish_on");
   spanish.style("opacity", "0");
