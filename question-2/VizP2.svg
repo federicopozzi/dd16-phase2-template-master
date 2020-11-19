@@ -330,8 +330,8 @@
     </g>
     <rect x="80.84521" y="212.36943" width="148.39147" height="148.39147" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
     <g id="Layer_1" data-name="Layer 1">
-      <image width="1200" height="900" transform="translate(16.33431 476.13559) scale(0.04412)" xlink:href="../../../Downloads/instagram_app_icon.png"/>
-      <image width="1200" height="630" transform="translate(-2.6424 742.83008) scale(0.07575)" xlink:href="../../../Downloads/tripadvisor_app_icon.png"/>
+      <image width="1200" height="900" transform="translate(16.33431 476.13559) scale(0.04412)" xlink:href="./img/instagram_app_icon.png"/>
+      <image width="1200" height="630" transform="translate(-2.6424 742.83008) scale(0.07575)" xlink:href="./img/tripadvisor_app_icon.png"/>
     </g>
   </g>
   <g id="Dati-Diversi">
