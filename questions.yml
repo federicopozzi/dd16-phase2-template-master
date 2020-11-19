@@ -1,7 +1,7 @@
 - index: 1
   title: "Which are the most digitally relevant tourism categories based on Instagram hashtags?"
   description: There’s a very long list of tourism categories. People travel for many different reasons and sometimes unexpected ones. Have you ever wondered what people travel for? What are the reasons that push us to step out of our door? We investigated Instagram hashtags related to tourism in order to understand which category is represented the most on the platform.
-  cover: cover.gif
+  cover: cover1.gif
   folder: question-1
   datasets:
     - name: Wikipedia & Instagram
