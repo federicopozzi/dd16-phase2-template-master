@@ -15,6 +15,19 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   // script gephi prova
   // background
 
+  // const etichette = d3.selectAll("#Layer_57 > g > #nome");
+  //
+  // etichette.style("visibility", "hidden");
+  //
+  // const pulsante = d3.selectAll("#Layer_57 > g > ellipse");
+  //  d3.selectAll("#Layer_57 > g").on("mouseover", function(){
+  //    d3.select(this).select("#nome").style("visibility", "visible");
+  //  })
+  //
+  //  d3.selectAll("#Layer_57 > g").on("mouseout", function(){
+  //    d3.select(this).select("#nome").style("visibility", "hidden");
+  //  })
+
   const hash = d3.selectAll("#hashtag");
   hash.style("opacity", "1");
 
