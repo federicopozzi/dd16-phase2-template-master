@@ -66,6 +66,18 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
     paesi.style("visibility", "hidden");
     d3.select("#Skin-Labels").style("visibility", "visible");
     d3.select("#Skin-Body-PIENO_copy").style("visibility", "visible");
+    d3.select("#Continents-Body").style("visibility", "hidden");
+    d3.select("#Skin-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#Legs-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#Fertility-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#Butt-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#WeightLoss-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#General-Surgery-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#Breast-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#Teeth-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#Face-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#Nose-Body-PIENO_copy").style("visibility", "hidden");
+    d3.select("#Hair-Body-PIENO_copy").style("visibility", "hidden");
     d3.select("#WeightLoss-Body-PIENO_copy").style("visibility", "hidden");
   })
 
