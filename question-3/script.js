@@ -20,7 +20,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
 
   etichette.style("visibility", "hidden");
 
-  const pulsante = d3.selectAll("#Layer_57 > g > ellipse");
+  
    d3.selectAll("#interazione_etichette > g").on("mouseover", function(){
      d3.select(this).select("g").style("visibility", "visible");
    })
