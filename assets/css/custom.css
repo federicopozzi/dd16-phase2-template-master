@@ -16,6 +16,14 @@ html {
   cursor: pointer;
 }
 
+#Body-on > g {
+  cursor: pointer;
+}
+
+#SEZIONI-ON > g{
+  cursor: pointer;
+}
+
 #SEZIONI {
   cursor:pointer;
 }
