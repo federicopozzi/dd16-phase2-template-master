@@ -20,7 +20,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
 
   etichette.style("visibility", "hidden");
 
-  
+
    d3.selectAll("#interazione_etichette > g").on("mouseover", function(){
      d3.select(this).select("g").style("visibility", "visible");
    })
@@ -41,10 +41,10 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   //selectall nodes
   const clusters = d3.selectAll("#nodes > g");
   clusters.style("opacity", "0");
-  clusters.on("mouseover", function(){
+  clusters.select("g > circle").on("mouseover", function(){
       hashScomparire.style("opacity", "0");
   })
-  clusters.on("mouseout", function(){
+  clusters.select("g > circle").on("mouseout", function(){
       hashScomparire.style("opacity", "1");
   })
 
