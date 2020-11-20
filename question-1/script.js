@@ -37,7 +37,8 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
 
 
   //hover categorie
-
+  const etichetteon = d3.selectAll("#SEZIONI-ON");
+  etichetteon.style("visibility", "hidden");
 
   const etichette = d3.selectAll("#Etichette > g");
   const sezioni = d3.selectAll("#SEZIONI > g");
