@@ -43,6 +43,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   clusters.style("opacity", "0");
   clusters.select("g > circle").on("mouseover", function(){
       hashScomparire.style("opacity", "0");
+      hash.style("opacity", "0");
   })
   clusters.select("g > circle").on("mouseout", function(){
       hashScomparire.style("opacity", "1");
