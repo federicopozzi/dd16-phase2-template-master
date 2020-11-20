@@ -23,8 +23,8 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     immagine.style("opacity", "1");
     d3.select(this).style("opacity", "1");
     // d3.select(this).style("transform", "scale(2)");
-    d3.select(this).attr("width", "150");
-    d3.select(this).attr("height", "150");
+    d3.select(this).attr("width", "140");
+    d3.select(this).attr("height", "140");
     // d3.select(this).style("transform", "translate(10px, 10px)");
   })
 
