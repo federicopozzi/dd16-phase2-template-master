@@ -66,7 +66,7 @@
       }
 
       .cls-14, .cls-20 {
-        fill: #95e52e;
+        fill: #8acc2b;
       }
 
       .cls-15, .cls-19 {
@@ -90,7 +90,7 @@
       }
 
       .cls-22 {
-        stroke: #95e52e;
+        stroke: #8acc2b;
       }
     </style>
   </defs>
