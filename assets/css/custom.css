@@ -39,6 +39,21 @@ html {
   cursor:pointer;
 }
 
+#bottoni {
+  cursor:pointer;
+}
+
+#Arbol_Switch{
+  cursor:pointer;
+}
+
+#Pig_Switch{
+  cursor:pointer;
+}
+
+#Lempuyang_Switch{
+  cursor:pointer;
+}
 .cover .cover__title {
   font-size: 3rem;
   text-transform: uppercase;
