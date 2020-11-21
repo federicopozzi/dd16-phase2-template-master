@@ -1,5 +1,5 @@
 html {
-  --color-main: #222244;
+  --color-main: #587ef9;
   --color-main-lighter: #C3C2FF;
   --color-text: #333333;
   --color-text-lighter: #AAAAAA;
@@ -55,7 +55,7 @@ html {
   cursor:pointer;
 }
 .cover .cover__title {
-  font-size: 3rem;
+  font-size: 3.3rem;
   text-transform: uppercase;
   line-height: 1;
   color: #ffffff;
