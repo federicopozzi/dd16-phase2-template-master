@@ -11,49 +11,65 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function(
   // console.log(container);
   container.appendChild(svgNode);
 
- const arbol = d3.selectAll("#Arbol");
- arbol.style("visibility", "visible");
+ const arbol = d3.selectAll("#CASA_DEL_ARBOL");
+ arbol.style("visibility", "hidden");
 
- const lempuyang = d3.selectAll("#Lempuyang");
- lempuyang.style("visibility", "hidden");
+ const lempuyang = d3.selectAll("#LEMPUYANG");
+ lempuyang.style("visibility", "visible");
 
- const pig = d3.selectAll("#Pig");
+ const pig = d3.selectAll("#PIG_ISLAND");
  pig.style("visibility", "hidden");
 
- const buttonLemp = d3.select("#Lampuyang-on");
- buttonLemp.style("opacity", "0");
- buttonLemp.on("click", function(){
-   buttonLemp.style("opacity", "1");
-   buttonArbol.style("opacity", "0");
-   buttonPig.style("opacity", "0");
-   lempuyang.style("visibility", "visible");
-   pig.style("visibility", "hidden");
-   arbol.style("visibility", "hidden");
-
- })
-
- const buttonArbol = d3.select("#Arbol-on");
- buttonArbol.style("opacity", "1");
- buttonArbol.on("click", function(){
-   buttonLemp.style("opacity", "0");
-   buttonArbol.style("opacity", "1");
-   buttonPig.style("opacity", "0");
-   lempuyang.style("visibility", "hidden");
-   pig.style("visibility", "hidden");
-   arbol.style("visibility", "visible");
- })
-
- const buttonPig = d3.select("#Pig-on");
- buttonPig.style("opacity", "0");
- buttonPig.on("click", function(){
-   buttonLemp.style("opacity", "0");
-   buttonArbol.style("opacity", "0");
-   buttonPig.style("opacity", "1");
-   lempuyang.style("visibility", "hidden");
+ const bottonePig = d3.select("#pig_island_on-hover");
+ bottonePig.on("click", function(){
    pig.style("visibility", "visible");
+   lempuyang.style("visibility", "hidden");
    arbol.style("visibility", "hidden");
  })
 
+ const bottoneLemp = d3.select("#lempuyang_on-hover");
+ bottoneLemp.on("click", function(){
+   pig.style("visibility", "hidden");
+   lempuyang.style("visibility", "visible");
+   arbol.style("visibility", "hidden");
+ })
+
+ const bottoneArbol = d3.select("#casa_albor_on-hover");
+ bottoneArbol.on("click", function(){
+   pig.style("visibility", "hidden");
+   lempuyang.style("visibility", "hidden");
+   arbol.style("visibility", "visibile");
+ })
+
+
+
+//PIG Island
+const instaPig = d3.selectAll("#Pig_Instagram_9");
+instaPig.style("visibility", "visible");
+
+const sorterPig = d3.selectAll("#Pig_Imagesorter");
+sorterPig.style("visibility", "hidden");
+
+d3.select("#OVERVIEW-on").on("click", function(){
+  d3.select(this).style("visibility", "hidden");
+  d3.select("#ALL-on").style("visibility", "visible");
+  instaPig.style("visibility", "hidden");
+  sorterPig.style("visibility", "visible");
+
+})
+
+d3.select("#ALL-on").on("click", function(){
+  d3.select(this).style("visibility", "hidden");
+  d3.select("#OVERVIEW-on").style("visibility", "visible");
+instaPig.style("visibility", "visible");
+sorterPig.style("visibility", "hidden");
+
+})
+
+
+
+
+//lempuyang
 
 
 });
