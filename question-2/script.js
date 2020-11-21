@@ -66,6 +66,9 @@ sorterPig.style("visibility", "hidden");
 
 })
 
+const imagePig = d3.selectAll("#Pig_pictures > g > image");
+
+
 
 
 
