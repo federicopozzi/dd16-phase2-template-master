@@ -57,6 +57,7 @@ d3.select("#g_skull").on("mouseover", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_skull").on("mouseout", function() {
@@ -64,6 +65,7 @@ d3.select("#g_skull").on("mouseover", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -72,6 +74,7 @@ d3.select("#g_death").on("mouseover", function() {
   hash.style("opacity", "0.2").style("transition", "0.1s ease");
   posts.style("opacity", "0.2").style("transition", "0.1s ease");
   hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+  hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
   d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
 });
 d3.select("#g_death").on("mouseout", function() {
@@ -79,6 +82,7 @@ d3.select("#g_death").on("mouseout", function() {
   hash.style("opacity", "1").style("transition", "0.1s ease");
   posts.style("opacity", "1").style("transition", "0.1s ease");
   hashT.style("opacity", "1").style("transition", "0.1s ease");
+  hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
   d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
 });
 
@@ -87,6 +91,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_history").on("mouseout", function() {
@@ -94,6 +99,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -102,6 +108,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_mementomori").on("mouseout", function() {
@@ -109,6 +116,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -117,6 +125,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_halloween").on("mouseout", function() {
@@ -124,6 +133,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -132,6 +142,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_cemetery").on("mouseout", function() {
@@ -139,6 +150,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -147,6 +159,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_paranormal").on("mouseout", function() {
@@ -154,6 +167,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -162,6 +176,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_haunted").on("mouseout", function() {
@@ -169,6 +184,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -177,6 +193,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_travel").on("mouseout", function() {
@@ -184,6 +201,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -192,6 +210,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_spooky").on("mouseout", function() {
@@ -199,6 +218,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -207,6 +227,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_abandonedplaces").on("mouseout", function() {
@@ -214,6 +235,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -222,6 +244,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_urbex").on("mouseout", function() {
@@ -229,6 +252,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -237,6 +261,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_abandoned").on("mouseout", function() {
@@ -244,6 +269,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -252,6 +278,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_pripyat").on("mouseout", function() {
@@ -259,6 +286,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -267,6 +295,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_chernobyl").on("mouseout", function() {
@@ -274,6 +303,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
@@ -282,6 +312,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
     hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
   });
   d3.select("#g_radioactive").on("mouseout", function() {
@@ -289,6 +320,7 @@ d3.select("#g_death").on("mouseout", function() {
     hash.style("opacity", "1").style("transition", "0.1s ease");
     posts.style("opacity", "1").style("transition", "0.1s ease");
     hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
