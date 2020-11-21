@@ -433,124 +433,124 @@
     <g id="foto_feed">
       <g id="death">
         <g>
-          <image width="1080" height="1080" transform="translate(264.22294 749.21277) scale(0.08243)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-01-12_23-36-27_UTC.jpg"/>
-          <image width="1080" height="1080" transform="translate(164.35888 849.04331) scale(0.08218)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-01-13_11-16-04_UTC.jpg"/>
-          <image width="1080" height="1080" transform="translate(64.22294 848.90737) scale(0.08243)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-01-21_20-53-24_UTC.jpg"/>
-          <image width="1080" height="1080" transform="translate(164.52587 749.51569) scale(0.08187)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-01-25_23-20-22_UTC.jpg"/>
-          <image width="1080" height="1080" transform="translate(64.22294 749.21277) scale(0.08243)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-02-07_20-25-42_UTC.jpg"/>
-          <image width="1080" height="1080" transform="translate(264.22294 848.90737) scale(0.08243)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-03-03_01-43-29_UTC.jpg"/>
-          <image width="1080" height="1080" transform="translate(264.30524 649.60046) scale(0.08228)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-03-07_14-33-35_UTC.jpg"/>
-          <image width="1080" height="1080" transform="translate(164.50969 649.80491) scale(0.0819)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-06-15_19-39-39_UTC.jpg"/>
-          <image width="1080" height="1080" transform="translate(64.35888 649.6541) scale(0.08218)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2019-03-19_17-50-05_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(264.22294 749.21277) scale(0.08243)" xlink:href="./img/2018-01-12_23-36-27_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(164.35888 849.04331) scale(0.08218)" xlink:href="./img/2018-01-13_11-16-04_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(64.22294 848.90737) scale(0.08243)" xlink:href="./img/2018-01-21_20-53-24_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(164.52587 749.51569) scale(0.08187)" xlink:href="./img/2018-01-25_23-20-22_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(64.22294 749.21277) scale(0.08243)" xlink:href="./img/2018-02-07_20-25-42_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(264.22294 848.90737) scale(0.08243)" xlink:href="./img/2018-03-03_01-43-29_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(264.30524 649.60046) scale(0.08228)" xlink:href="./img/2018-03-07_14-33-35_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(164.50969 649.80491) scale(0.0819)" xlink:href="./img/2018-06-15_19-39-39_UTC.jpg"/>
+          <image width="1080" height="1080" transform="translate(64.35888 649.6541) scale(0.08218)" xlink:href="./img/2019-03-19_17-50-05_UTC.jpg"/>
         </g>
       </g>
       <g id="nuclear">
         <g>
           <g clip-path="url(#clip-path)">
-            <image width="1080" height="608" transform="translate(120.98081 649.30412) scale(0.15506 0.14713)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-07-29_06-27-35_UTC_1.jpg"/>
+            <image width="1080" height="608" transform="translate(120.98081 649.30412) scale(0.15506 0.14713)" xlink:href="./img/2020-07-29_06-27-35_UTC_1.jpg"/>
           </g>
           <g clip-path="url(#clip-path-2)">
-            <image width="1080" height="816" transform="translate(29.09197 849.79426) scale(0.11496)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-08-10_08-16-53_UTC_10.jpg"/>
+            <image width="1080" height="816" transform="translate(29.09197 849.79426) scale(0.11496)" xlink:href="./img/2020-08-10_08-16-53_UTC_10.jpg"/>
           </g>
           <g clip-path="url(#clip-path-3)">
-            <image width="1080" height="1350" transform="translate(258.2136 819.62425) scale(0.09697)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-10_09-46-48_UTC.jpg"/>
+            <image width="1080" height="1350" transform="translate(258.2136 819.62425) scale(0.09697)" xlink:href="./img/2020-10-10_09-46-48_UTC.jpg"/>
           </g>
           <g clip-path="url(#clip-path-4)">
-            <image width="1080" height="1346" transform="translate(64.22294 644.66946) scale(0.08243)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-07-29_04-48-33_UTC.jpg"/>
+            <image width="1080" height="1346" transform="translate(64.22294 644.66946) scale(0.08243)" xlink:href="./img/2020-07-29_04-48-33_UTC.jpg"/>
           </g>
           <g clip-path="url(#clip-path-5)">
-            <image width="1080" height="607" transform="translate(226.85093 650.239) scale(0.14414)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-07-30_13-32-26_UTC_1.jpg"/>
+            <image width="1080" height="607" transform="translate(226.85093 650.239) scale(0.14414)" xlink:href="./img/2020-07-30_13-32-26_UTC_1.jpg"/>
           </g>
           <g clip-path="url(#clip-path-6)">
-            <image width="1080" height="608" transform="translate(37.76194 749.21277) scale(0.14598)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-08-10_08-02-01_UTC_1.jpg"/>
+            <image width="1080" height="608" transform="translate(37.76194 749.21277) scale(0.14598)" xlink:href="./img/2020-08-10_08-02-01_UTC_1.jpg"/>
           </g>
           <g clip-path="url(#clip-path-7)">
-            <image width="1080" height="817" transform="translate(154.16325 749.57297) scale(0.10882)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-08-10_08-16-53_UTC_1.jpg"/>
+            <image width="1080" height="817" transform="translate(154.16325 749.57297) scale(0.10882)" xlink:href="./img/2020-08-10_08-16-53_UTC_1.jpg"/>
           </g>
           <g clip-path="url(#clip-path-8)">
-            <image width="1080" height="816" transform="translate(249.64622 748.67557) scale(0.10942)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-08-10_08-16-53_UTC_6.jpg"/>
+            <image width="1080" height="816" transform="translate(249.64622 748.67557) scale(0.10942)" xlink:href="./img/2020-08-10_08-16-53_UTC_6.jpg"/>
           </g>
           <g clip-path="url(#clip-path-9)">
-            <image width="1080" height="608" transform="translate(152.82904 848.7202) scale(0.14704)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-08-30_07-12-13_UTC_1.jpg"/>
+            <image width="1080" height="608" transform="translate(152.82904 848.7202) scale(0.14704)" xlink:href="./img/2020-08-30_07-12-13_UTC_1.jpg"/>
           </g>
         </g>
       </g>
       <g id="horror">
         <g>
-          <image width="405" height="400" transform="translate(62.71413 647.97636) scale(0.22222 0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-01-25_23-20-22_UTC_1.jpg"/>
-          <image width="400" height="400" transform="translate(262.71413 647.97636) scale(0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2018-03-03_01-43-29_UTC_1.jpg"/>
-          <image width="400" height="400" transform="translate(162.71413 747.48908) scale(0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-08_11-45-55_UTC.jpg"/>
-          <image width="400" height="400" transform="translate(162.71413 647.97636) scale(0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_10-33-42_UTC.jpg"/>
-          <image width="400" height="400" transform="translate(162.71413 847.36557) scale(0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-31_21-22-36_UTC.jpg"/>
-          <image width="400" height="400" transform="translate(263.24819 847.93262) scale(0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-01_17-16-46_UTC.jpg"/>
-          <image width="400" height="400" transform="translate(62.71413 847.36557) scale(0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_17-20-20_UTC_6.jpg"/>
-          <image width="401" height="400" transform="translate(62.71413 747.67096) scale(0.22444 0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-31_04-28-40_UTC_4.jpg"/>
-          <image width="400" height="400" transform="translate(262.71413 747.67096) scale(0.225)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-06_06-48-26_UTC_6.jpg"/>
+          <image width="405" height="400" transform="translate(62.71413 647.97636) scale(0.22222 0.225)" xlink:href="./img/2018-01-25_23-20-22_UTC_1.jpg"/>
+          <image width="400" height="400" transform="translate(262.71413 647.97636) scale(0.225)" xlink:href="./img/2018-03-03_01-43-29_UTC_1.jpg"/>
+          <image width="400" height="400" transform="translate(162.71413 747.48908) scale(0.225)" xlink:href="./img/2020-10-08_11-45-55_UTC.jpg"/>
+          <image width="400" height="400" transform="translate(162.71413 647.97636) scale(0.225)" xlink:href="./img/2020-10-29_10-33-42_UTC.jpg"/>
+          <image width="400" height="400" transform="translate(162.71413 847.36557) scale(0.225)" xlink:href="./img/2020-10-31_21-22-36_UTC.jpg"/>
+          <image width="400" height="400" transform="translate(263.24819 847.93262) scale(0.225)" xlink:href="./img/2020-11-01_17-16-46_UTC.jpg"/>
+          <image width="400" height="400" transform="translate(62.71413 847.36557) scale(0.225)" xlink:href="./img/2020-10-28_17-20-20_UTC_6.jpg"/>
+          <image width="401" height="400" transform="translate(62.71413 747.67096) scale(0.22444 0.225)" xlink:href="./img/2020-10-31_04-28-40_UTC_4.jpg"/>
+          <image width="400" height="400" transform="translate(262.71413 747.67096) scale(0.225)" xlink:href="./img/2020-11-06_06-48-26_UTC_6.jpg"/>
         </g>
       </g>
       <g id="halloween">
         <g>
-          <image width="300" height="300" transform="translate(163.24819 847.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-27_20-40-58_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 847.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-27_21-41-23_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 847.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_22-12-04_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 748.23801) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_20-37-09_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 748.23801) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_16-32-43_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 748.08573) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_19-47-01_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 648.54341) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-31_16-50-39_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 648.54341) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-31_21-30-37_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 648.54341) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-02_20-37-40_UTC_9.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 847.93262) scale(0.3)" xlink:href="./img/2020-10-27_20-40-58_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 847.93262) scale(0.3)" xlink:href="./img/2020-10-27_21-41-23_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 847.93262) scale(0.3)" xlink:href="./img/2020-10-28_22-12-04_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 748.23801) scale(0.3)" xlink:href="./img/2020-10-29_20-37-09_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 748.23801) scale(0.3)" xlink:href="./img/2020-10-30_16-32-43_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 748.08573) scale(0.3)" xlink:href="./img/2020-10-30_19-47-01_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 648.54341) scale(0.3)" xlink:href="./img/2020-10-31_16-50-39_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 648.54341) scale(0.3)" xlink:href="./img/2020-10-31_21-30-37_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 648.54341) scale(0.3)" xlink:href="./img/2020-11-02_20-37-40_UTC_9.jpg"/>
         </g>
       </g>
       <g id="cambodia">
         <g>
-          <image width="300" height="302" transform="translate(263.24819 648.84142) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-27_16-38-58_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 847.85977) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_14-09-22_UTC_3.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 649.13943) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_14-09-22_UTC_2.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 748.83404) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_15-46-00_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 748.83404) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_06-38-34_UTC_2.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 848.52864) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_12-43-21_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 848.52864) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_06-38-34_UTC_3.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 748.83404) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_06-38-34_UTC_1.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 649.13943) scale(0.3 0.29801)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_02-05-31_UTC.jpg"/>
+          <image width="300" height="302" transform="translate(263.24819 648.84142) scale(0.3 0.29801)" xlink:href="./img/2020-10-27_16-38-58_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 847.85977) scale(0.3 0.29801)" xlink:href="./img/2020-10-29_14-09-22_UTC_3.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 649.13943) scale(0.3 0.29801)" xlink:href="./img/2020-10-29_14-09-22_UTC_2.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 748.83404) scale(0.3 0.29801)" xlink:href="./img/2020-10-28_15-46-00_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 748.83404) scale(0.3 0.29801)" xlink:href="./img/2020-10-30_06-38-34_UTC_2.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 848.52864) scale(0.3 0.29801)" xlink:href="./img/2020-10-28_12-43-21_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 848.52864) scale(0.3 0.29801)" xlink:href="./img/2020-10-30_06-38-34_UTC_3.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 748.83404) scale(0.3 0.29801)" xlink:href="./img/2020-10-30_06-38-34_UTC_1.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 649.13943) scale(0.3 0.29801)" xlink:href="./img/2020-10-28_02-05-31_UTC.jpg"/>
         </g>
       </g>
       <g id="travel">
         <g>
-          <image width="300" height="285" transform="translate(163.24819 648.22274) scale(0.3 0.31483)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2019-01-26_10-58-11_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 648.23801) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2019-01-27_22-00-50_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 847.62722) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2019-01-28_21-25-43_UTC_1.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 747.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2019-01-28_21-44-37_UTC_1.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 648.23801) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_14-58-19_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 747.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_18-00-10_UTC_3.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 747.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-31_14-14-13_UTC_1.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 847.62722) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-07_22-56-27_UTC_8.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 847.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-07_13-45-09_UTC.jpg"/>
+          <image width="300" height="285" transform="translate(163.24819 648.22274) scale(0.3 0.31483)" xlink:href="./img/2019-01-26_10-58-11_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 648.23801) scale(0.3)" xlink:href="./img/2019-01-27_22-00-50_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 847.62722) scale(0.3)" xlink:href="./img/2019-01-28_21-25-43_UTC_1.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 747.93262) scale(0.3)" xlink:href="./img/2019-01-28_21-44-37_UTC_1.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 648.23801) scale(0.3)" xlink:href="./img/2020-10-28_14-58-19_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 747.93262) scale(0.3)" xlink:href="./img/2020-10-29_18-00-10_UTC_3.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 747.93262) scale(0.3)" xlink:href="./img/2020-10-31_14-14-13_UTC_1.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 847.62722) scale(0.3)" xlink:href="./img/2020-11-07_22-56-27_UTC_8.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 847.93262) scale(0.3)" xlink:href="./img/2020-11-07_13-45-09_UTC.jpg"/>
         </g>
       </g>
       <g id="turismonegro">
         <g>
-          <image width="300" height="300" transform="translate(263.24819 747.92134) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_17-57-03_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 847.61595) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_17-01-19_UTC_5.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 747.92134) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_19-19-36_UTC.jpg"/>
-          <image width="300" height="301" transform="translate(163.24819 847.63262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_18-42-54_UTC_3.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 648.22674) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_23-02-46_UTC.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 847.61595) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-01_20-31-31_UTC_6.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 648.22674) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-02_20-11-05_UTC_1.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 747.92134) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-07_03-10-02_UTC_6.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 648.22674) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-07_23-11-39_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 747.92134) scale(0.3)" xlink:href="./img/2020-10-28_17-57-03_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 847.61595) scale(0.3)" xlink:href="./img/2020-10-29_17-01-19_UTC_5.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 747.92134) scale(0.3)" xlink:href="./img/2020-10-29_19-19-36_UTC.jpg"/>
+          <image width="300" height="301" transform="translate(163.24819 847.63262) scale(0.3)" xlink:href="./img/2020-10-30_18-42-54_UTC_3.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 648.22674) scale(0.3)" xlink:href="./img/2020-10-30_23-02-46_UTC.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 847.61595) scale(0.3)" xlink:href="./img/2020-11-01_20-31-31_UTC_6.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 648.22674) scale(0.3)" xlink:href="./img/2020-11-02_20-11-05_UTC_1.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 747.92134) scale(0.3)" xlink:href="./img/2020-11-07_03-10-02_UTC_6.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 648.22674) scale(0.3)" xlink:href="./img/2020-11-07_23-11-39_UTC.jpg"/>
         </g>
       </g>
       <g id="korean">
         <g>
-          <image width="300" height="300" transform="translate(63.24819 847.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_09-07-39_UTC_1.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 747.61476) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-28_09-07-39_UTC_4.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 747.61476) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_11-17-49_UTC_1.jpg"/>
-          <image width="300" height="299" transform="translate(263.24819 747.76476) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-29_11-17-49_UTC_2.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 647.92016) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_18-42-54_UTC_1.jpg"/>
-          <image width="300" height="300" transform="translate(63.24819 647.92016) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-10-30_18-42-54_UTC_2.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 847.47604) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-08_22-29-29_UTC_1.jpg"/>
-          <image width="300" height="300" transform="translate(163.24819 647.29691) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-08_22-29-29_UTC_2.jpg"/>
-          <image width="300" height="300" transform="translate(263.24819 847.93262) scale(0.3)" xlink:href="../../../Downloads/PROTOCOL_3_DEF_2_21nov/Links/2020-11-08_22-29-29_UTC_3.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 847.93262) scale(0.3)" xlink:href="./img/2020-10-28_09-07-39_UTC_1.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 747.61476) scale(0.3)" xlink:href="./img/2020-10-28_09-07-39_UTC_4.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 747.61476) scale(0.3)" xlink:href="./img/2020-10-29_11-17-49_UTC_1.jpg"/>
+          <image width="300" height="299" transform="translate(263.24819 747.76476) scale(0.3)" xlink:href="./img/2020-10-29_11-17-49_UTC_2.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 647.92016) scale(0.3)" xlink:href="./img/2020-10-30_18-42-54_UTC_1.jpg"/>
+          <image width="300" height="300" transform="translate(63.24819 647.92016) scale(0.3)" xlink:href="./img/2020-10-30_18-42-54_UTC_2.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 847.47604) scale(0.3)" xlink:href="./img/2020-11-08_22-29-29_UTC_1.jpg"/>
+          <image width="300" height="300" transform="translate(163.24819 647.29691) scale(0.3)" xlink:href="./img/2020-11-08_22-29-29_UTC_2.jpg"/>
+          <image width="300" height="300" transform="translate(263.24819 847.93262) scale(0.3)" xlink:href="./img/2020-11-08_22-29-29_UTC_3.jpg"/>
         </g>
       </g>
     </g>
