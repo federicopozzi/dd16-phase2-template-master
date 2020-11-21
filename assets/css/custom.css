@@ -4,11 +4,22 @@ html {
   --color-text: #333333;
   --color-text-lighter: #AAAAAA;
   --color-background: #FBFBFD;
-  --font-display: 'Commissioner', sans-serif;
-  --font-text: 'Commissioner', sans-serif;
+  --font-display: 'Favorit Regular', sans-serif;
+  --font-text: 'Favorit Medium', sans-serif;
 }
 
-
+@font-face {
+  font-family: 'Favorit Regular';
+  src: local('☺'), url('../font/Favorit_Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Favorit Medium';
+  src: local('☺'), url('../font/Favorit_Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Favorit Bold';
+  src: local('☺'), url('../font/Favorit_Bold.woff') format('woff');
+}
 /* PROTOCOL 3*/
 
 /*cursor pointer protocol_3*/
