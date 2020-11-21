@@ -23,6 +23,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     immagine.style("opacity", "1");
     d3.select(this).style("opacity", "1");
     // d3.select(this).style("transform", "scale(2)");
+    d3.select(this).style("transition", "0.01s ease");
     d3.select(this).attr("width", "130");
     d3.select(this).attr("height", "130");
     // d3.select(this).style("transform", "translate(10px, 10px)");
@@ -30,6 +31,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
 
   immagine.on("mouseout", function() {
     immagine.style("opacity", "1");
+    d3.select(this).style("transition", "0.01s ease");
     d3.select(this).attr("width", "21");
     d3.select(this).attr("height", "21");
   })
