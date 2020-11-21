@@ -7,7 +7,7 @@ html {
   --font-display: 'Favorit Regular', sans-serif;
   --font-text: 'Favorit Medium', sans-serif;
 }
-
+/* Load custom font face - Favorit*/
 @font-face {
   font-family: 'Favorit Regular';
   src: local('☺'), url('../font/Favorit_Regular.woff') format('woff');
@@ -37,4 +37,12 @@ html {
 
 #SEZIONI {
   cursor:pointer;
+}
+
+.cover .cover__title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'Favorit Bold';
 }
