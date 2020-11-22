@@ -103,7 +103,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function(
   })
 
   //Arbol Tripadvisor
-  const immaginiArbol = d3.selectAll("#Arbol_pictures > g > image, #image-5");
+  const immaginiArbol = d3.selectAll("#Arbol_pictures > g > image");
 
   immaginiArbol.on("mouseover", function() {
     d3.select(this).attr("width", "2400");
