@@ -1,15 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1000">
   <defs>
     <clipPath id="clip-path">
-      <rect x="33.29295" y="269.89331" width="201.50099" height="202.4515" fill="none"/>
-    </clipPath>
-    <clipPath id="clip-path-2">
       <rect x="923.50081" y="271.33847" width="202.54097" height="200.96431" fill="none"/>
     </clipPath>
-    <clipPath id="clip-path-3">
+    <clipPath id="clip-path-2">
       <rect x="700.94354" y="269.93002" width="202.52923" height="202.37807" fill="none"/>
     </clipPath>
-    <clipPath id="clip-path-4">
+    <clipPath id="clip-path-3">
       <rect x="700.94354" y="271.33847" width="202.52923" height="200.96963" fill="none"/>
     </clipPath>
     <image id="image" width="300" height="300" xlink:href="./img/2019-12-31_21-00-03_UTC_1.jpg"/>
@@ -17,7 +14,7 @@
     <image id="image-3" width="1060" height="1060" xlink:href="./img/2018-04-25_04-04-28_UTC.jpg"/>
   </defs>
   <g id="Background">
-    <rect width="1920" height="1080" fill="#224"/>
+    <rect width="1920" height="1000" fill="#224"/>
   </g>
   <g id="elementi_base">
     <g id="anni">
@@ -139,7 +136,7 @@
       </g>
     </g>
     <g id="elementi_laterali">
-      <rect x="1640.31316" y="725.46494" width="28.44461" height="28.44461" fill="none" stroke="#fff" stroke-miterlimit="10"/>
+      <path d="M1668.75759,725.46494v28.44458h-28.44433V725.46494h28.44433m1-1h-30.44433v30.44458h30.44433V724.46494Z" fill="#fff"/>
       <g>
         <path d="M1680.42166,727.27h3.68359a2.6042,2.6042,0,1,1,0,5.20508h-2.24414v3.19043h-1.43945Zm3.502,3.92188a1.2599,1.2599,0,0,0,1.43945-1.31934c0-.82715-.5039-1.31933-1.43945-1.31933h-2.0625v2.63867Z" fill="#fff"/>
         <path d="M1687.97048,727.27h1.5v1.48731h-1.5Zm.04883,2.39844h1.37891v5.99707h-1.37891Z" fill="#fff"/>
@@ -315,7 +312,6 @@
         <path d="M1774.43533,649.48972h1.73926V651.229h-1.73926Z" fill="#fff"/>
       </g>
       <rect x="1640.31316" y="678.30061" width="28.44461" height="28.44461" fill="none" stroke="#e33678" stroke-miterlimit="10" stroke-width="2"/>
-      <rect x="1640.31316" y="402.67118" width="28.44461" height="28.44461" fill="#fff" opacity="0.3"/>
       <rect x="1640.31316" y="355.52819" width="28.44461" height="28.44461" fill="none" stroke="#e33678" stroke-miterlimit="10" stroke-width="2"/>
       <g>
         <path d="M1680.42166,404.47605h3.68359a2.6042,2.6042,0,1,1,0,5.20508h-2.24414v3.19043h-1.43945Zm3.502,3.92187a1.25989,1.25989,0,0,0,1.43945-1.31933c0-.82715-.5039-1.31934-1.43945-1.31934h-2.0625v2.63867Z" fill="#fff"/>
@@ -408,7 +404,14 @@
           </g>
         </g>
       </g>
+      <g opacity="0.3">
+        <path d="M1668.75759,402.67118v28.44461h-28.44433V402.67118h28.44433m1-1h-30.44433v30.44461h30.44433V401.67118Z" fill="#fff"/>
+        <line x1="1640.31316" y1="431.11578" x2="1668.75776" y2="402.67118" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10"/>
+        <line x1="1640.31316" y1="402.67118" x2="1668.75776" y2="431.11578" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
     </g>
+    <line x1="1640.31316" y1="753.90955" x2="1668.75776" y2="725.46494" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10"/>
+    <line x1="1640.31316" y1="725.46494" x2="1668.75776" y2="753.90955" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10"/>
   </g>
   <g id="CASA_DEL_ARBOL">
     <g id="Arbol_tripadvisor">
@@ -792,7 +795,7 @@
         <image width="200" height="200" transform="translate(988.30232 605.79616) scale(0.07501)" xlink:href="./img/198.jpg"/>
         <image width="200" height="200" transform="translate(988.30232 625.29383) scale(0.07501)" xlink:href="./img/206.jpg"/>
         <image width="200" height="200" transform="translate(988.30253 644.79146) scale(0.07501 0.07501)" xlink:href="./img/430.jpg"/>
-        <image width="200" height="200" transform="translate(988.3023 586.29845) scale(0.07501 0.07501)" xlink:href="./img/431.jpg"/>
+        <image width="200" height="200" transform="translate(988.3023 586.29845) scale(0.07501)" xlink:href="./img/431.jpg"/>
         <image width="200" height="200" transform="translate(988.3023 664.28913) scale(0.07501)" xlink:href="./img/438.jpg"/>
         <image width="200" height="200" transform="translate(1104.17308 703.28453) scale(0.07501)" xlink:href="./img/164.jpg"/>
         <image width="200" height="200" transform="translate(1104.17308 683.78684) scale(0.07501)" xlink:href="./img/168.jpg"/>
@@ -833,7 +836,7 @@
         <image width="200" height="200" transform="translate(1026.92591 605.79616) scale(0.07501)" xlink:href="./img/196.jpg"/>
         <image width="200" height="200" transform="translate(1026.92605 644.79146) scale(0.07501 0.07501)" xlink:href="./img/305.jpg"/>
         <image width="200" height="200" transform="translate(1026.92591 586.29849) scale(0.07501)" xlink:href="./img/307.jpg"/>
-        <image width="200" height="200" transform="translate(1026.92589 664.28913) scale(0.07501 0.07501)" xlink:href="./img/440.jpg"/>
+        <image width="200" height="200" transform="translate(1026.92589 664.28913) scale(0.07501)" xlink:href="./img/440.jpg"/>
         <image width="200" height="200" transform="translate(1026.92589 683.7868) scale(0.07501)" xlink:href="./img/450.jpg"/>
         <image width="200" height="200" transform="translate(949.67874 683.78684) scale(0.07501)" xlink:href="./img/169.jpg"/>
         <image width="200" height="200" transform="translate(949.67874 586.29849) scale(0.07501)" xlink:href="./img/183.jpg"/>
@@ -841,7 +844,7 @@
         <image width="200" height="200" transform="translate(949.67874 605.79616) scale(0.07501)" xlink:href="./img/300.jpg"/>
         <image width="200" height="200" transform="translate(949.67901 644.7915) scale(0.07501)" xlink:href="./img/303.jpg"/>
         <image width="200" height="200" transform="translate(949.67874 664.28917) scale(0.07501)" xlink:href="./img/436.jpg"/>
-        <image width="200" height="200" transform="translate(949.67868 566.80078) scale(0.07501 0.07501)" xlink:href="./img/444.jpg"/>
+        <image width="200" height="200" transform="translate(949.67868 566.80078) scale(0.07501)" xlink:href="./img/444.jpg"/>
         <image width="200" height="200" transform="translate(949.67872 547.30311) scale(0.07501)" xlink:href="./img/451.jpg"/>
         <image width="200" height="200" transform="translate(1084.86133 644.7915) scale(0.07501)" xlink:href="./img/190.jpg"/>
         <image width="200" height="200" transform="translate(1084.86129 625.29383) scale(0.07501)" xlink:href="./img/199.jpg"/>
@@ -863,8 +866,8 @@
         <image width="200" height="200" transform="translate(1007.61412 586.29849) scale(0.07501)" xlink:href="./img/197.jpg"/>
         <image width="200" height="200" transform="translate(1007.61412 605.79616) scale(0.07501)" xlink:href="./img/204.jpg"/>
         <image width="200" height="200" transform="translate(1007.61412 625.29383) scale(0.07501)" xlink:href="./img/228.jpg"/>
-        <image width="200" height="200" transform="translate(1007.61396 566.80078) scale(0.07501 0.07501)" xlink:href="./img/304.jpg"/>
-        <image width="200" height="200" transform="translate(1007.6141 664.28913) scale(0.07501 0.07501)" xlink:href="./img/439.jpg"/>
+        <image width="200" height="200" transform="translate(1007.61396 566.80078) scale(0.07501)" xlink:href="./img/304.jpg"/>
+        <image width="200" height="200" transform="translate(1007.6141 664.28913) scale(0.07501)" xlink:href="./img/439.jpg"/>
         <image width="200" height="200" transform="translate(1007.6141 683.7868) scale(0.07501)" xlink:href="./img/449.jpg"/>
         <image width="200" height="200" transform="translate(1007.61412 547.30315) scale(0.07501)" xlink:href="./img/455.jpg"/>
         <g id="Arbol_rettangoli_2017">
@@ -1149,7 +1152,7 @@
         <image width="200" height="200" transform="translate(601.01235 644.7915) scale(0.07501)" xlink:href="./img/73.jpg"/>
         <image width="200" height="200" transform="translate(601.01235 605.79616) scale(0.07501)" xlink:href="./img/76.jpg"/>
         <image width="200" height="200" transform="translate(601.01235 625.29383) scale(0.07501)" xlink:href="./img/376.jpg"/>
-        <image width="200" height="200" transform="translate(601.01233 566.80078) scale(0.07501 0.07501)" xlink:href="./img/388.jpg"/>
+        <image width="200" height="200" transform="translate(601.01233 566.80078) scale(0.07501)" xlink:href="./img/388.jpg"/>
         <image width="200" height="200" transform="translate(601.01235 703.28453) scale(0.07501)" xlink:href="./img/390.jpg"/>
         <image width="200" height="200" transform="translate(601.01235 547.30315) scale(0.07501)" xlink:href="./img/22.jpg"/>
         <image width="200" height="200" transform="translate(620.32414 703.28453) scale(0.07501)" xlink:href="./img/25.jpg"/>
@@ -1322,9 +1325,7 @@
     </g>
     <g id="Arbol_Imagesorter">
       <image width="358" height="400" transform="translate(255.85612 269.89331) scale(0.56551 0.50613)" xlink:href="./img/CASA_2014.jpg"/>
-      <g clip-path="url(#clip-path)">
-        <image width="400" height="400" transform="translate(33.29295 269.89331) scale(0.50613 0.50613)" xlink:href="./img/5_Tavola%20disegno%2031.jpg"/>
-      </g>
+      <image width="400" height="400" transform="translate(33.29295 269.89331) scale(0.50613 0.50613)" xlink:href="./img/5_Tavola%20disegno%2031.jpg"/>
       <image width="359" height="400" transform="translate(478.41926 269.89331) scale(0.56393 0.50613)" xlink:href="./img/CASA_2015.jpg"/>
       <image width="359" height="400" transform="translate(700.9824 269.89331) scale(0.56393 0.50613)" xlink:href="./img/CASA_2016.jpg"/>
       <image width="359" height="400" transform="translate(923.54555 269.89331) scale(0.56393 0.50613)" xlink:href="./img/CASA_2017.jpg"/>
@@ -3506,14 +3507,14 @@
       </g>
     </g>
     <g id="Lempuyang_Imagesorter">
-      <g clip-path="url(#clip-path-2)">
+      <g clip-path="url(#clip-path)">
         <image width="388" height="400" transform="translate(923.50081 269.93534) scale(0.52201 0.50592)" xlink:href="./img/2017.jpg"/>
       </g>
       <image width="390" height="400" transform="translate(33.25696 269.92749) scale(0.51929 0.50596)" xlink:href="./img/2013.jpg"/>
       <image width="391" height="400" transform="translate(255.82941 269.91881) scale(0.51792 0.506)" xlink:href="./img/2014.jpg"/>
       <image width="390" height="400" transform="translate(478.38142 269.92925) scale(0.5193 0.50595)" xlink:href="./img/2015.jpg"/>
-      <g clip-path="url(#clip-path-3)">
-        <g clip-path="url(#clip-path-4)">
+      <g clip-path="url(#clip-path-2)">
+        <g clip-path="url(#clip-path-3)">
           <image width="389" height="400" transform="translate(700.94354 269.93002) scale(0.52064 0.50595)" xlink:href="./img/2016.jpg"/>
         </g>
       </g>
