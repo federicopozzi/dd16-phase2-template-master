@@ -70,8 +70,14 @@ html {
   color: #e21e6e;
 }
 
+
+/* si possono togliere */
 .container > div > h3 {
   color: #e21e6e;
+}
+
+.footer__item > h5 {
+    color: #e21e6e;
 }
 
 hr {
