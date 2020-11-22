@@ -70,6 +70,10 @@ html {
   color: #e21e6e;
 }
 
+.container > div > h3 {
+  color: #e21e6e;
+}
+
 hr {
   border: 1px solid #303BF5;
 }
