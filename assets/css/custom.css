@@ -106,3 +106,15 @@ hr {
 .footer__container div:nth-child(4) > p:nth-child(6) {
   cursor: url('./cursors/zingale.png'), auto;
 }
+
+.footer__container div:nth-child(5) > p:nth-child(7) {
+  cursor: url('./cursors/bea.png'), auto;
+}
+
+.footer__container div:nth-child(5) > p:nth-child(3) {
+  cursor: url('./cursors/andre.png'), auto;
+}
+
+.footer__container div:nth-child(5) > p:nth-child(5) {
+  cursor: url('./cursors/tommi.png'), auto;
+}
