@@ -4,8 +4,8 @@ html {
   --color-text: #333333;
   --color-text-lighter: #AAAAAA;
   --color-background: #FBFBFD;
-  --font-display: 'Favorit Regular', sans-serif;
-  --font-text: 'Favorit Medium', sans-serif;
+  --font-display: 'Favorit Medium', sans-serif;
+  --font-text: 'Favorit Regular', sans-serif;
 }
 /* Load custom font face - Favorit*/
 @font-face {
