@@ -7,57 +7,65 @@ html {
   --font-display: 'Favorit Medium', sans-serif;
   --font-text: 'Favorit Regular', sans-serif;
 }
+
 /* Load custom font face - Favorit*/
 @font-face {
   font-family: 'Favorit Regular';
   src: local('☺'), url('../font/Favorit_Regular.woff') format('woff');
 }
+
 @font-face {
   font-family: 'Favorit Medium';
   src: local('☺'), url('../font/Favorit_Medium.woff') format('woff');
 }
+
 @font-face {
   font-family: 'Favorit Bold';
   src: local('☺'), url('../font/Favorit_Bold.woff') format('woff');
 }
+
 /* PROTOCOL 3*/
-
 /*cursor pointer protocol_3*/
-#on-hover > g {
+#on-hover>g {
   cursor: pointer;
 }
 
-#Body-on > g {
+#Body-on>g {
   cursor: pointer;
 }
 
-#SEZIONI-ON > g{
+#SEZIONI-ON>g {
   cursor: pointer;
 }
 
 #SEZIONI {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 #bottoni {
-  cursor:pointer;
+  cursor: pointer;
 }
 
-#Arbol_Switch{
-  cursor:pointer;
+#Arbol_Switch {
+  cursor: pointer;
 }
 
-#Pig_Switch{
-  cursor:pointer;
+#Pig_Switch {
+  cursor: pointer;
 }
 
-#Lempuyang_Switch{
-  cursor:pointer;
+#Lempuyang_Switch {
+  cursor: pointer;
 }
+
 .cover .cover__title {
   font-size: 3.3rem;
   text-transform: uppercase;
   line-height: 1;
   color: #ffffff;
   font-family: 'Favorit Bold';
+}
+
+.main-text-title>h3 {
+  color: #e21e6e;
 }

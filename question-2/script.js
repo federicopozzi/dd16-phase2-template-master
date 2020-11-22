@@ -113,6 +113,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function(
   immaginiArbol.on("mouseout", function() {
     d3.select(this).attr("width", "200");
     d3.select(this).attr("height", "200");
+    d3.select(this).lower();
   })
 
 
@@ -156,6 +157,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function(
   immaginiPig.on("mouseout", function() {
     d3.select(this).attr("width", "300");
     d3.select(this).attr("height", "300");
+    d3.select(this).lower();
   })
 
 
@@ -197,6 +199,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function(
   immaginiLemp.on("mouseout", function() {
     d3.select(this).attr("width", "200");
     d3.select(this).attr("height", "200");
+    d3.select(this).lower();
   })
 
 });
