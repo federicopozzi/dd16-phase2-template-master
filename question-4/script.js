@@ -23,7 +23,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
     d3.select(this).style("opacity", "1");
   });
   paesi.on("mouseout", function() {
-      paesi.style("transition", "0.1s ease");
+    paesi.style("transition", "0.1s ease");
     paesi.style("opacity", "1");
 
   });

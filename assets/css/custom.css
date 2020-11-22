@@ -70,23 +70,19 @@ html {
   color: #e21e6e;
 }
 
-
-/* si possono togliere */
-.container > div > h3 {
+.container>div>h3 {
   color: #e21e6e;
 }
 
-.footer__item > h5 {
-    color: #e21e6e;
+.footer__item>h5 {
+  color: #e21e6e;
 }
-
 
 hr {
   border: 1px solid #303BF5;
 }
 
-
 /* dirty data is the unofficial name for group 4 */
-.footer__container div:nth-child(3){
-cursor: url('./cursor.png'), auto;
+.footer__container div:nth-child(3) {
+  cursor: url('./cursor.png'), auto;
 }

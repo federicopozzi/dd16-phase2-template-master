@@ -44,19 +44,19 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
 
   d3.selectAll("#SEZIONI-ON-hover").style("visibility", "hidden");
 
-  etichetteon.on("mouseover", function(){
+  etichetteon.on("mouseover", function() {
     d3.select(this).style("opacity", "1");
   })
 
-    etichetteon.on("mouseout", function(){
-      d3.select(this).style("opacity", "0");
-    })
+  etichetteon.on("mouseout", function() {
+    d3.select(this).style("opacity", "0");
+  })
 
   const etichette = d3.selectAll("#Etichette > g");
   const sezioni = d3.selectAll("#SEZIONI > g");
   const imgTutte = d3.selectAll("#Images > g");
 
-  d3.selectAll("#BACKGROUND").on("click", function(){
+  d3.selectAll("#BACKGROUND").on("click", function() {
     imgTutte.style("opacity", "1");
     etichette.style("opacity", "1");
     sezioni.style("opacity", "1");
@@ -77,10 +77,10 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
-    d3.select("#SEZ-NATURE-on").style("opacity","0");
+    d3.select("#SEZ-NATURE-on").style("opacity", "0");
   })
 
-  d3.select("#SEZ-NATURE-on").on("click", function(){
+  d3.select("#SEZ-NATURE-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -103,7 +103,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-NATURE-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-NATURE").on("click", function(){
@@ -112,7 +112,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-ACTIVITIES-on").on("click", function(){
+  d3.select("#SEZ-ACTIVITIES-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -135,7 +135,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-ACTIVITIES-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-ACTIVITIES").on("click", function(){
@@ -144,7 +144,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-ADVENTURE-on").on("click", function(){
+  d3.select("#SEZ-ADVENTURE-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -167,7 +167,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-ADVENTURE-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-ADVENTURE").on("click", function(){
@@ -176,7 +176,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-AID-on").on("click", function(){
+  d3.select("#SEZ-AID-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -199,7 +199,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-AID-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-AID").on("click", function(){
@@ -208,7 +208,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-CULTURE-on").on("click", function(){
+  d3.select("#SEZ-CULTURE-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -231,7 +231,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-CULTURE-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-CULTURE").on("click", function(){
@@ -240,7 +240,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-DOMESTIC-on").on("click", function(){
+  d3.select("#SEZ-DOMESTIC-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -263,7 +263,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DOMESTIC-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-DOMESTIC").on("click", function(){
@@ -272,7 +272,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-HERITAGE-on").on("click", function(){
+  d3.select("#SEZ-HERITAGE-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -295,7 +295,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-HERITAGE-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-HERITAGE").on("click", function(){
@@ -304,7 +304,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-LGBT-on").on("click", function(){
+  d3.select("#SEZ-LGBT-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -327,7 +327,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-LGBT-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-LGBT").on("click", function(){
@@ -336,7 +336,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-BUSINESS-on").on("click", function(){
+  d3.select("#SEZ-BUSINESS-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -359,7 +359,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-BUSINESS-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-BUSINESS").on("click", function(){
@@ -368,7 +368,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-ACCESSIBLE-on").on("click", function(){
+  d3.select("#SEZ-ACCESSIBLE-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -391,7 +391,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-ACCESSIBLE-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-ACCESSIBLE").on("click", function(){
@@ -400,7 +400,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-RELIGION-on").on("click", function(){
+  d3.select("#SEZ-RELIGION-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -423,7 +423,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-RELIGION-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-RELIGION").on("click", function(){
@@ -432,7 +432,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-SEX-on").on("click", function(){
+  d3.select("#SEZ-SEX-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -455,7 +455,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-SEX-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-SEX").on("click", function(){
@@ -464,7 +464,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-SPACE-on").on("click", function(){
+  d3.select("#SEZ-SPACE-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -487,7 +487,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-SPACE").on("click", function(){
@@ -496,7 +496,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-MEDIC-on").on("click", function(){
+  d3.select("#SEZ-MEDIC-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -519,7 +519,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-MEDIC").on("click", function(){
@@ -528,7 +528,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-FOOD-on").on("click", function(){
+  d3.select("#SEZ-FOOD-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -551,7 +551,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-FOOD").on("click", function(){
@@ -560,7 +560,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
   //   sezioni.style("opacity", "1");
   // })
 
-  d3.select("#SEZ-DARK-on").on("click", function(){
+  d3.select("#SEZ-DARK-on").on("click", function() {
     imgTutte.style("opacity", "0.3");
     sezioni.style("opacity", "0.3");
     d3.select(this).style("opacity", "1");
@@ -583,7 +583,7 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP1.svg")]).then(function(
     d3.selectAll("#SEZ-MEDIC-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-FOOD-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "hidden");
-      d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
+    d3.selectAll("#SEZ-SPACE-on-hover").style("visibility", "hidden");
     d3.selectAll("#SEZ-DARK-on-hover").style("visibility", "visible");
   })
   // d3.select("#SEZ-DARK").on("click", function(){

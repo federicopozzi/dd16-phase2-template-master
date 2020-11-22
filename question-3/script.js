@@ -21,13 +21,13 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   etichette.style("visibility", "hidden");
 
 
-   d3.selectAll("#interazione_etichette > g").on("mouseover", function(){
-     d3.select(this).select("g").style("visibility", "visible");
-   })
+  d3.selectAll("#interazione_etichette > g").on("mouseover", function() {
+    d3.select(this).select("g").style("visibility", "visible");
+  })
 
-   d3.selectAll("#interazione_etichette > g").on("mouseout", function(){
-     d3.select(this).select("g").style("visibility", "hidden");
-   })
+  d3.selectAll("#interazione_etichette > g").on("mouseout", function() {
+    d3.select(this).select("g").style("visibility", "hidden");
+  })
 
   const hash = d3.selectAll("#hashtag");
   hash.style("opacity", "1");
@@ -41,18 +41,18 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
   //selectall nodes
   const clusters = d3.selectAll("#nodes > g");
   clusters.style("opacity", "0");
-  clusters.select("g > circle").on("mouseover", function(){
-      hashScomparire.style("opacity", "0");
-      hash.style("opacity", "0");
+  clusters.select("g > circle").on("mouseover", function() {
+    hashScomparire.style("opacity", "0");
+    hash.style("opacity", "0");
   })
-  clusters.select("g > circle").on("mouseout", function(){
-      hashScomparire.style("opacity", "1");
+  clusters.select("g > circle").on("mouseout", function() {
+    hashScomparire.style("opacity", "1");
   })
 
 
 
-//hover sui nodes
-d3.select("#g_skull").on("mouseover", function() {
+  //hover sui nodes
+  d3.select("#g_skull").on("mouseover", function() {
     d3.select("#skull").style("opacity", "1").style("transition", "0.1s ease");
     hash.style("opacity", "0.2").style("transition", "0.1s ease");
     posts.style("opacity", "0.2").style("transition", "0.1s ease");
@@ -69,22 +69,22 @@ d3.select("#g_skull").on("mouseover", function() {
     d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
   });
 
-d3.select("#g_death").on("mouseover", function() {
-  d3.select("#death-2").style("opacity", "1").style("transition", "0.1s ease");
-  hash.style("opacity", "0.2").style("transition", "0.1s ease");
-  posts.style("opacity", "0.2").style("transition", "0.1s ease");
-  hashT.style("opacity", "0.2").style("transition", "0.1s ease");
-  hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
-  d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
-});
-d3.select("#g_death").on("mouseout", function() {
-  d3.select("#death-2").style("opacity", "0").style("transition", "0.1s ease");
-  hash.style("opacity", "1").style("transition", "0.1s ease");
-  posts.style("opacity", "1").style("transition", "0.1s ease");
-  hashT.style("opacity", "1").style("transition", "0.1s ease");
-  hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
-  d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
-});
+  d3.select("#g_death").on("mouseover", function() {
+    d3.select("#death-2").style("opacity", "1").style("transition", "0.1s ease");
+    hash.style("opacity", "0.2").style("transition", "0.1s ease");
+    posts.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashT.style("opacity", "0.2").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "0").style("transition", "0.1s ease");
+    d3.select("#targhette_grandi").style("opacity", "0").style("transition", "0.1s ease");
+  });
+  d3.select("#g_death").on("mouseout", function() {
+    d3.select("#death-2").style("opacity", "0").style("transition", "0.1s ease");
+    hash.style("opacity", "1").style("transition", "0.1s ease");
+    posts.style("opacity", "1").style("transition", "0.1s ease");
+    hashT.style("opacity", "1").style("transition", "0.1s ease");
+    hashScomparire.style("opacity", "1").style("transition", "0.1s ease");
+    d3.select("#targhette_grandi").style("opacity", "1").style("transition", "0.1s ease");
+  });
 
   d3.select("#g_history").on("mouseover", function() {
     d3.select("#history").style("opacity", "1").style("transition", "0.1s ease");
@@ -348,17 +348,17 @@ d3.select("#g_death").on("mouseout", function() {
   on.style("opacity", "0");
 
 
-  onHover.on("mouseover", function(){
+  onHover.on("mouseover", function() {
     d3.select(this).style("opacity", "1");
   })
-  onHover.on("mouseout", function(){
+  onHover.on("mouseout", function() {
     d3.select(this).style("opacity", "0");
   })
 
   const foto = d3.selectAll("#death, #nuclear, #horror, #halloween, #cambodia, #travel, #turismonegro, #korean");
   foto.style("opacity", "0");
 
-  d3.select("#area_death_on-hover").on("click", function(){
+  d3.select("#area_death_on-hover").on("click", function() {
     d3.select("#area_spanish_on").style("opacity", "0");
     d3.select("#area_horror_on").style("opacity", "0");
     d3.select("#area_halloween_on").style("opacity", "0");
@@ -371,7 +371,7 @@ d3.select("#g_death").on("mouseout", function() {
     d3.select("#death").style("opacity", "1");
   })
 
-  d3.select("#area_spanish_on-hover").on("click", function(){
+  d3.select("#area_spanish_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
     d3.select("#area_horror_on").style("opacity", "0");
     d3.select("#area_halloween_on").style("opacity", "0");
@@ -384,7 +384,7 @@ d3.select("#g_death").on("mouseout", function() {
     d3.select("#turismonegro").style("opacity", "1");
   })
 
-  d3.select("#area_horror_on-hover").on("click", function(){
+  d3.select("#area_horror_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
     d3.select("#area_spanish_on").style("opacity", "0");
     d3.select("#area_halloween_on").style("opacity", "0");
@@ -397,7 +397,7 @@ d3.select("#g_death").on("mouseout", function() {
     d3.select("#horror").style("opacity", "1");
   })
 
-  d3.select("#area_halloween_on-hover").on("click", function(){
+  d3.select("#area_halloween_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
     d3.select("#area_spanish_on").style("opacity", "0");
     d3.select("#area_horror_on").style("opacity", "0");
@@ -410,7 +410,7 @@ d3.select("#g_death").on("mouseout", function() {
     d3.select("#halloween").style("opacity", "1");
   })
 
-  d3.select("#area_travel_on-hover").on("click", function(){
+  d3.select("#area_travel_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
     d3.select("#area_spanish_on").style("opacity", "0");
     d3.select("#area_horror_on").style("opacity", "0");
@@ -423,7 +423,7 @@ d3.select("#g_death").on("mouseout", function() {
     d3.select("#travel").style("opacity", "1");
   })
 
-  d3.select("#area_nuclear_on-hover").on("click", function(){
+  d3.select("#area_nuclear_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
     d3.select("#area_spanish_on").style("opacity", "0");
     d3.select("#area_horror_on").style("opacity", "0");
@@ -436,7 +436,7 @@ d3.select("#g_death").on("mouseout", function() {
     d3.select("#nuclear").style("opacity", "1");
   })
 
-  d3.select("#area_korean_on-hover").on("click", function(){
+  d3.select("#area_korean_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
     d3.select("#area_spanish_on").style("opacity", "0");
     d3.select("#area_horror_on").style("opacity", "0");
@@ -449,7 +449,7 @@ d3.select("#g_death").on("mouseout", function() {
     d3.select("#korean").style("opacity", "1");
   })
 
-  d3.select("#area_cambodian_on-hover").on("click", function(){
+  d3.select("#area_cambodian_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
     d3.select("#area_spanish_on").style("opacity", "0");
     d3.select("#area_horror_on").style("opacity", "0");
