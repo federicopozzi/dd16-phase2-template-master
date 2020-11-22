@@ -197,8 +197,8 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP2.svg")]).then(function(
     d3.select(this).raise();
   })
   immaginiLemp.on("mouseout", function() {
-    d3.select(this).attr("width", "200");
-    d3.select(this).attr("height", "200");
+    d3.select(this).attr("width", "300");
+    d3.select(this).attr("height", "300");
     d3.select(this).lower();
   })
 
