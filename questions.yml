@@ -6,8 +6,8 @@
   datasets:
     - name: Wikipedia & Instagram
       description: In this dataset you can find the complete collection of tourism categories and related hashtags used to compile the visualization.
-      src: magic-data.csv
-      size: 0.0 KB
+      src: P1-typeoftourism.xlsx
+      size: 118 KB
       format: .xls
 - index: 2
   title: "How do Instagram touristic trends influence the popularity of places on Tripadvisor?"
@@ -17,8 +17,8 @@
   datasets:
     - name: Instagram & Tripadvisor
       description: In this dataset you can find the amount of images related to the analyzed places on both Instagram and Tripadvisor.
-      src: magic-data.csv
-      size: 0.0 KB
+      src: P2-Touristic trend.xlsx
+      size: 31 KB
       format: .xls
 - index: 3
   title: "Which are the topics related to #darktourism and defined by main co-hashtags found in the first 300 posts on Instagram?"
@@ -29,8 +29,8 @@ We examined the #darktourism Instagram co-hashtags found in the pictures posted 
   datasets:
     - name: Instagram
       description: "In this dataset you can find the complete collection of tourism topics and the related co-hashtags of #darktourism used to compile the visualization."
-      src: magic-data.csv
-      size: 0.0 KB
+      src: P3-darktourism.xlsx
+      size: 232 KB
       format: .xls
 - index: 4
   title: "What are the most popular medical tourism destinations according to the first 400 Instagram posts on #medicaltourism hashtag?"
@@ -40,6 +40,6 @@ We examined the #darktourism Instagram co-hashtags found in the pictures posted 
   datasets:
     - name: Instagram
       description: "In this dataset you can find the complete collection of all posts related to #medicaltourism with the correspondent locations and treatment options."
-      src: magic-data.csv
-      size: 0.0 KB
+      src: P4-medicaltourism.xlsx
+      size: 80 KB
       format: .xls
