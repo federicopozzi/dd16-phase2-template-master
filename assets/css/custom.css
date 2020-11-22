@@ -80,6 +80,11 @@ html {
     color: #e21e6e;
 }
 
+
+.footer__container div:nth-child(3){
+cursor: url('./cursor.png'), auto;
+}
+
 hr {
   border: 1px solid #303BF5;
 }
