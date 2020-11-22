@@ -81,10 +81,12 @@ html {
 }
 
 
-.footer__container div:nth-child(3){
-cursor: url('./cursor.png'), auto;
-}
-
 hr {
   border: 1px solid #303BF5;
+}
+
+
+/* dirty data is the unofficial name for group 4 */
+.footer__container div:nth-child(3){
+cursor: url('./cursor.png'), auto;
 }
