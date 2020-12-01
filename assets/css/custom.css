@@ -57,6 +57,9 @@ html {
 #Lempuyang_Switch {
   cursor: pointer;
 }
+#SEZIONI-ON-hover{
+  cursor:pointer;
+}
 
 .cover .cover__title {
   font-size: 3.3rem;
