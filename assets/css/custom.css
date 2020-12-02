@@ -60,6 +60,9 @@ html {
 #SEZIONI-ON-hover{
   cursor:pointer;
 }
+#on{
+  cursor:pointer;
+}
 
 .cover .cover__title {
   font-size: 3.3rem;

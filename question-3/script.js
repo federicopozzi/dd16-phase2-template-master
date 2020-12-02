@@ -368,8 +368,21 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     d3.select("#area_cambodian_on").style("opacity", "0");
     foto.style("opacity", "0");
     d3.select("#area_death_on").style("opacity", "1");
+    d3.select("#area_death_on-hover").style("visibility", "hidden");
     d3.select("#death").style("opacity", "1");
   })
+d3.select("#area_death_on").on("click", function(){
+  d3.select("#area_death_on").style("opacity", "0");
+  d3.select("#area_spanish_on").style("opacity", "0");
+  d3.select("#area_horror_on").style("opacity", "0");
+  d3.select("#area_halloween_on").style("opacity", "0");
+  d3.select("#area_travel_on").style("opacity", "0");
+  d3.select("#area_nuclear_on").style("opacity", "0");
+  d3.select("#area_korean_on").style("opacity", "0");
+  d3.select("#area_cambodian_on").style("opacity", "0");
+  d3.select("#area_death_on-hover").style("visibility", "visible");
+  foto.style("opacity", "0");
+});
 
   d3.select("#area_spanish_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
@@ -381,8 +394,21 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     d3.select("#area_cambodian_on").style("opacity", "0");
     foto.style("opacity", "0");
     d3.select("#area_spanish_on").style("opacity", "1");
+    d3.select("#area_spanish_on-hover").style("visibility", "hidden");
     d3.select("#turismonegro").style("opacity", "1");
   })
+  d3.select("#area_spanish_on").on("click", function(){
+    d3.select("#area_death_on").style("opacity", "0");
+    d3.select("#area_spanish_on").style("opacity", "0");
+    d3.select("#area_horror_on").style("opacity", "0");
+    d3.select("#area_halloween_on").style("opacity", "0");
+    d3.select("#area_travel_on").style("opacity", "0");
+    d3.select("#area_nuclear_on").style("opacity", "0");
+    d3.select("#area_korean_on").style("opacity", "0");
+    d3.select("#area_cambodian_on").style("opacity", "0");
+    d3.select("#area_spanish_on-hover").style("visibility", "visible");
+    foto.style("opacity", "0");
+  });
 
   d3.select("#area_horror_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
@@ -394,8 +420,21 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     d3.select("#area_cambodian_on").style("opacity", "0");
     foto.style("opacity", "0");
     d3.select("#area_horror_on").style("opacity", "1");
+    d3.select("#area_horror_on-hover").style("visibility", "hidden");
     d3.select("#horror").style("opacity", "1");
   })
+  d3.select("#area_horror_on").on("click", function(){
+    d3.select("#area_death_on").style("opacity", "0");
+    d3.select("#area_spanish_on").style("opacity", "0");
+    d3.select("#area_horror_on").style("opacity", "0");
+    d3.select("#area_halloween_on").style("opacity", "0");
+    d3.select("#area_travel_on").style("opacity", "0");
+    d3.select("#area_nuclear_on").style("opacity", "0");
+    d3.select("#area_korean_on").style("opacity", "0");
+    d3.select("#area_cambodian_on").style("opacity", "0");
+    d3.select("#area_horror_on-hover").style("visibility", "visible");
+    foto.style("opacity", "0");
+  });
 
   d3.select("#area_halloween_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
@@ -407,8 +446,21 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     d3.select("#area_cambodian_on").style("opacity", "0");
     foto.style("opacity", "0");
     d3.select("#area_halloween_on").style("opacity", "1");
+    d3.select("#area_halloween_on-hover").style("visibility", "hidden");
     d3.select("#halloween").style("opacity", "1");
   })
+  d3.select("#area_halloween_on").on("click", function(){
+    d3.select("#area_death_on").style("opacity", "0");
+    d3.select("#area_spanish_on").style("opacity", "0");
+    d3.select("#area_horror_on").style("opacity", "0");
+    d3.select("#area_halloween_on").style("opacity", "0");
+    d3.select("#area_travel_on").style("opacity", "0");
+    d3.select("#area_nuclear_on").style("opacity", "0");
+    d3.select("#area_korean_on").style("opacity", "0");
+    d3.select("#area_cambodian_on").style("opacity", "0");
+    d3.select("#area_halloween_on-hover").style("visibility", "visible");
+    foto.style("opacity", "0");
+  });
 
   d3.select("#area_travel_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
@@ -420,8 +472,21 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     d3.select("#area_cambodian_on").style("opacity", "0");
     foto.style("opacity", "0");
     d3.select("#area_travel_on").style("opacity", "1");
+      d3.select("#area_travel_on-hover").style("visibility", "hidden");
     d3.select("#travel").style("opacity", "1");
   })
+  d3.select("#area_travel_on").on("click", function(){
+    d3.select("#area_death_on").style("opacity", "0");
+    d3.select("#area_spanish_on").style("opacity", "0");
+    d3.select("#area_horror_on").style("opacity", "0");
+    d3.select("#area_halloween_on").style("opacity", "0");
+    d3.select("#area_travel_on").style("opacity", "0");
+    d3.select("#area_nuclear_on").style("opacity", "0");
+    d3.select("#area_korean_on").style("opacity", "0");
+    d3.select("#area_cambodian_on").style("opacity", "0");
+    d3.select("#area_travel_on-hover").style("visibility", "visible");
+    foto.style("opacity", "0");
+  });
 
   d3.select("#area_nuclear_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
@@ -433,8 +498,22 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     d3.select("#area_cambodian_on").style("opacity", "0");
     foto.style("opacity", "0");
     d3.select("#area_nuclear_on").style("opacity", "1");
+    d3.select("#area_nuclear_on-hover").style("visibility", "hidden");
     d3.select("#nuclear").style("opacity", "1");
   })
+d3.select("#area_nuclear_on").on("click", function(){
+  d3.select("#area_death_on").style("opacity", "0");
+  d3.select("#area_spanish_on").style("opacity", "0");
+  d3.select("#area_horror_on").style("opacity", "0");
+  d3.select("#area_halloween_on").style("opacity", "0");
+  d3.select("#area_travel_on").style("opacity", "0");
+  d3.select("#area_nuclear_on").style("opacity", "0");
+  d3.select("#area_korean_on").style("opacity", "0");
+  d3.select("#area_cambodian_on").style("opacity", "0");
+  d3.select("#area_nuclear_on-hover").style("visibility", "visible");
+  foto.style("opacity", "0");
+});
+
 
   d3.select("#area_korean_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
@@ -446,8 +525,21 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     d3.select("#area_cambodian_on").style("opacity", "0");
     foto.style("opacity", "0");
     d3.select("#area_korean_on").style("opacity", "1");
+    d3.select("#area_korean_on-hover").style("visibility", "hidden");
     d3.select("#korean").style("opacity", "1");
   })
+  d3.select("#area_korean_on").on("click", function(){
+    d3.select("#area_death_on").style("opacity", "0");
+    d3.select("#area_spanish_on").style("opacity", "0");
+    d3.select("#area_horror_on").style("opacity", "0");
+    d3.select("#area_halloween_on").style("opacity", "0");
+    d3.select("#area_travel_on").style("opacity", "0");
+    d3.select("#area_nuclear_on").style("opacity", "0");
+    d3.select("#area_korean_on").style("opacity", "0");
+    d3.select("#area_cambodian_on").style("opacity", "0");
+    d3.select("#area_korean_on-hover").style("visibility", "visible");
+    foto.style("opacity", "0");
+  });
 
   d3.select("#area_cambodian_on-hover").on("click", function() {
     d3.select("#area_death_on").style("opacity", "0");
@@ -459,9 +551,21 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP3.svg")]).then(function(
     d3.select("#area_korean_on").style("opacity", "0");
     foto.style("opacity", "0");
     d3.select("#area_cambodian_on").style("opacity", "1");
+    d3.select("#area_cambodian_on-hover").style("visibility", "hidden");
     d3.select("#cambodia").style("opacity", "1");
   })
-
+d3.select("#area_cambodian_on").on("click", function(){
+  d3.select("#area_death_on").style("opacity", "0");
+  d3.select("#area_spanish_on").style("opacity", "0");
+  d3.select("#area_horror_on").style("opacity", "0");
+  d3.select("#area_halloween_on").style("opacity", "0");
+  d3.select("#area_travel_on").style("opacity", "0");
+  d3.select("#area_nuclear_on").style("opacity", "0");
+  d3.select("#area_korean_on").style("opacity", "0");
+  d3.select("#area_cambodian_on").style("opacity", "0");
+  d3.select("#area_cambodian_on-hover").style("visibility", "visible");
+  foto.style("opacity", "0");
+});
 
 
 
