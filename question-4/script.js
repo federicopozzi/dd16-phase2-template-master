@@ -15,10 +15,11 @@ Promise.all([d3.html("./question.html"), d3.html("./VizP4.svg")]).then(function(
   const città = d3.selectAll("#Labels-Cities > g");
   città.style("visibility", "hidden");
 
-  const cerchiPaesi = d3.selectAll("#Cerchi-paesi > g");
+  const cerchiPaesi = d3.selectAll("#Circles > g");
   cerchiPaesi.style("visibility", "hidden");
 
   const paesi = d3.selectAll("#Colors-Cities > g");
+  paesi.style("visibility", "hidden");
 
   paesi.on("mouseover", function() {
     paesi.style("opacity", "0.2");
