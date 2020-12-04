@@ -67,6 +67,10 @@ html {
 #interazione_etichette > g{
   cursor: none;
 }
+
+#Body-on-hover{
+  cursor:pointer;
+}
 .cover .cover__title {
   font-size: 3.3rem;
   text-transform: uppercase;
